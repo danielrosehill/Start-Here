@@ -1,11 +1,14 @@
 # Geojson Repositories
 
-## Jerusalem Shelters 0625 [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Jerusalem-Shelters-0625)
-Public shelters in Jerusalem (open sourced due to the public need for this info right now)
-
-
 Index of repositories related to OSINT, geopolitical analysis, and situational awareness
 
-Experimentary prediction analysis for real world events (Iran Israel)
+## Geopol Sim Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Geopol-Sim-Plugin)
 
-Real-time dashboard for Israel's Pikud HaOref rocket/situation alerts with multi-map Leaflet views and polygon overlays
+## World Geopol Fora [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/World-Geopol-Fora)
+Stub repo: machine-readable data about real-world geopolitical bodies for use in multi-agent AI simulations modelling political reactions
+
+## Geopol Forecast Council [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Geopol-Forecast-Council)
+Lean geopolitical forecasting council: 5-model panel, grounded SITREP, structured predictions per horizon, deterministic Typst report
+
+## Geopol Forecaster [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Geopol-Forecaster)
+Experimentary prediction analysis for real world events (Iran Israel)

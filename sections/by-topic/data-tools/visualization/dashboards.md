@@ -29,3 +29,6 @@ Project to build a personal dashboard (WIP)
 
 ## Worldmonitor [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/worldmonitor)
 Real-time global intelligence dashboard — AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface
+
+## Monitoring The Situation [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Monitoring-The-Situation)
+Curated index of open-source projects for situational awareness, geopolitical monitoring, and information-fusion dashboards (news grids, video walls, ops-center COPs).

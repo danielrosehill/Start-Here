@@ -1,7 +1,20 @@
 #!/usr/bin/env python3
 """
-Cleanup script to remove repositories from index that no longer exist on GitHub.
-Compares all indexed repos against current GitHub repos and removes deleted ones.
+Cleanup script to remove stale repositories from the index.
+
+This index documents public repositories, forks included. By default an entry
+is stale if the repo is no longer a public repo — deleted, renamed, or turned
+private. Pass --deleted-only to prune just the ones that no longer resolve.
+
+Two things this script used to get wrong, both silent:
+
+  * Its link regex only matched plain `[text](url)` links, so it saw 73 of the
+    1304 entries actually present. The leaf section files use a badge form,
+    `## Name [![View Repo](badge-url)](repo-url)`, whose inner `]` defeats the
+    old pattern. Match on the GitHub URL itself instead.
+  * It removed the single matched line. In the badge form the description sits
+    on the following line, so that orphaned the description under the previous
+    entry. Remove the whole entry block.
 """
 
 import json
@@ -11,17 +24,24 @@ from pathlib import Path
 from datetime import datetime
 import re
 
-def get_current_repos():
-    """Fetch current list of repos from GitHub using gh CLI."""
-    print("📡 Fetching current repository list from GitHub...")
+def get_current_repos(deleted_only=False):
+    """Fetch current list of repos from GitHub using gh CLI.
+
+    Default is public repos, forks included, which is what this index
+    contains — hierarchy-schema.json has a deliberate forks.md category.
+    --deleted-only widens it to every repo that still exists, public or
+    private, so only genuinely deleted repos count as stale.
+    """
+    cmd = ['gh', 'repo', 'list', 'danielrosehill', '--limit', '4000', '--json',
+           'name,nameWithOwner,description,createdAt,updatedAt,url,stargazerCount,forkCount,repositoryTopics']
+    if not deleted_only:
+        cmd += ['--visibility', 'public']
+        print("📡 Fetching current public repositories from GitHub...")
+    else:
+        print("📡 Fetching all existing repositories from GitHub...")
+
     try:
-        result = subprocess.run(
-            ['gh', 'repo', 'list', 'danielrosehill', '--limit', '1000', '--json',
-             'name,nameWithOwner,description,createdAt,updatedAt,url,stargazerCount,forkCount,repositoryTopics'],
-            capture_output=True,
-            text=True,
-            check=True
-        )
+        result = subprocess.run(cmd, capture_output=True, text=True, check=True)
         repos = json.loads(result.stdout)
         print(f"✓ Found {len(repos)} repositories on GitHub")
         return {repo['nameWithOwner']: repo for repo in repos}
@@ -30,14 +50,17 @@ def get_current_repos():
         print(f"❌ Error output: {e.stderr if hasattr(e, 'stderr') else 'No stderr'}")
         sys.exit(1)
 
+# Match the repo URL itself, so this works for both the plain link form
+# `[Name](https://github.com/owner/repo)` and the badge form
+# `## Name [![View Repo](badge)](https://github.com/owner/repo)`.
+# Badge URLs live on img.shields.io, so they never match this pattern.
+REPO_URL_RE = re.compile(r'https://github\.com/([A-Za-z0-9-]+)/([A-Za-z0-9._-]+)')
+
 def extract_repo_name(line):
-    """Extract repository nameWithOwner from markdown link."""
-    # Match patterns like [repo-name](https://github.com/owner/repo-name)
-    match = re.search(r'\[([^\]]+)\]\(https://github\.com/([^/]+)/([^)]+)\)', line)
+    """Extract repository nameWithOwner from a markdown line."""
+    match = REPO_URL_RE.search(line)
     if match:
-        owner = match.group(2)
-        repo = match.group(3)
-        return f"{owner}/{repo}"
+        return f"{match.group(1)}/{match.group(2)}"
     return None
 
 def scan_section_files(sections_dir):
@@ -81,18 +104,39 @@ def find_deleted_repos(current_repos, indexed_repos):
     return deleted
 
 def remove_repo_from_file(file_path, repo_name):
-    """Remove all lines mentioning a specific repo from a file."""
+    """Remove every entry for a repo from a file.
+
+    An entry in a leaf section file is a `## Heading` line carrying the repo
+    link, followed by its description and a blank separator. Dropping only the
+    heading would strand the description under the entry above, so consume the
+    whole block. Plain one-line list entries are removed as a single line.
+    """
     with open(file_path, 'r', encoding='utf-8') as f:
         lines = f.readlines()
 
     new_lines = []
     removed_count = 0
+    index = 0
 
-    for line in lines:
-        if extract_repo_name(line) == repo_name:
-            removed_count += 1
+    while index < len(lines):
+        line = lines[index]
+        if extract_repo_name(line) != repo_name:
+            new_lines.append(line)
+            index += 1
             continue
-        new_lines.append(line)
+
+        removed_count += 1
+        if not line.lstrip().startswith('#'):
+            index += 1
+            continue
+
+        # Heading entry: skip it, its description, and one trailing blank line.
+        index += 1
+        while index < len(lines) and not lines[index].lstrip().startswith('#') \
+                and lines[index].strip():
+            index += 1
+        if index < len(lines) and not lines[index].strip():
+            index += 1
 
     with open(file_path, 'w', encoding='utf-8') as f:
         f.writelines(new_lines)
@@ -155,13 +199,16 @@ def main():
     parser = argparse.ArgumentParser(description='Clean up deleted repositories from index')
     parser.add_argument('--execute', action='store_true',
                        help='Actually perform cleanup (default is dry run)')
+    parser.add_argument('--deleted-only', action='store_true',
+                       help='Only prune repos that no longer exist, keeping '
+                            'entries for repos that went private')
     args = parser.parse_args()
 
     print("🧹 GitHub Repository Cleanup Tool")
     print("=" * 50)
 
     # Get current repos from GitHub
-    current_repos = get_current_repos()
+    current_repos = get_current_repos(deleted_only=args.deleted_only)
 
     # Scan section files for indexed repos
     sections_dir = Path('sections')

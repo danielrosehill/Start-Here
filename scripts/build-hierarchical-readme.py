@@ -4,13 +4,51 @@ Build hierarchical README from hierarchy schema with badge links
 """
 
 import json
+import re
 from pathlib import Path
 from datetime import datetime
+
+# Repo links in the leaf section files, e.g.
+# ## Some Repo [![View Repo](badge)](https://github.com/danielrosehill/Some-Repo)
+REPO_LINK_RE = re.compile(r"https://github\.com/danielrosehill/([A-Za-z0-9._-]+)")
 
 def load_hierarchy_schema(schema_path):
     """Load the hierarchy schema JSON"""
     with open(schema_path, 'r') as f:
         return json.load(f)
+
+def count_total_repositories(base_dir):
+    """Total repo count from the freshest GitHub snapshot available.
+
+    sync-all.sh only copies repo-data/latest.json to repositories.json at
+    step 6, after this script runs at step 5, so prefer the snapshot and
+    fall back to the root copy for standalone runs.
+    """
+    for candidate in (base_dir / "repo-data" / "latest.json", base_dir / "repositories.json"):
+        try:
+            with open(candidate, 'r') as f:
+                data = json.load(f)
+        except (IOError, json.JSONDecodeError):
+            continue
+        if isinstance(data, list):
+            return len(data)
+    return None
+
+def count_repos_by_category(base_dir, sections, base_path="sections/by-topic"):
+    """Count distinct repos filed under each top-level category."""
+    counts = {}
+    for section_key, section_data in sections.items():
+        section_dir = base_dir / base_path / section_key
+        if not section_dir.is_dir():
+            continue
+        repos = set()
+        for md_file in section_dir.rglob("*.md"):
+            if md_file.name == "index.md":
+                continue
+            repos.update(REPO_LINK_RE.findall(md_file.read_text(encoding="utf-8")))
+        section_name = section_data.get('name', format_section_name(section_key))
+        counts[section_name] = len(repos)
+    return counts
 
 def format_title_for_badge(title):
     """Format title for badge display (replace spaces with underscores)"""
@@ -87,9 +125,10 @@ def build_category_summary(sections, base_path="sections/by-topic"):
 
     return '\n'.join(content)
 
-def build_readme(schema_path, output_path):
+def build_readme(schema_path, output_path, base_dir=None):
     """Build complete README from schema"""
     schema = load_hierarchy_schema(schema_path)
+    base_dir = Path(base_dir) if base_dir else Path(output_path).parent
 
     # Header section - simplified without table of contents
     readme_content = [
@@ -100,7 +139,7 @@ def build_readme(schema_path, output_path):
         "\n---\n",
         "\n## Index of Indexes\n",
         "I maintain several specialized indexes for different project categories. View the complete list:\n",
-        "\n[![Index of Indexes](https://img.shields.io/badge/View_Index_of_Indexes-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/danielrosehill/Index-Of-Indices)\n",
+        "\n[![Index of Indexes](https://img.shields.io/badge/View_Index_of_Indexes-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/danielrosehill/Subindices)\n",
         "\n---\n",
         "\n## Repository Views\n",
         "This index provides multiple ways to explore my GitHub repositories:\n",
@@ -121,31 +160,37 @@ def build_readme(schema_path, output_path):
         readme_content.append(category_table)
 
     # Footer sections
+    total = count_total_repositories(base_dir)
     readme_content.extend([
         "\n## Repository Statistics\n",
-        "**Total Repositories:** [Count updated dynamically]\n",
-        "\n**Top Categories:**\n",
-        "[Statistics updated dynamically]\n",
+        f"**Total Repositories:** {total if total is not None else 'unknown'}\n",
+    ])
+
+    if 'sections' in schema:
+        category_counts = count_repos_by_category(base_dir, schema['sections'])
+        ranked = sorted(category_counts.items(), key=lambda item: (-item[1], item[0]))
+        if ranked:
+            readme_content.append("\n**Repositories per category:**\n")
+            readme_content.append("\n| Category | Repositories |")
+            readme_content.append("| -------- | -----------: |")
+            readme_content.extend(f"| {name} | {count} |" for name, count in ranked)
+            readme_content.append("")
+
+    readme_content.extend([
         "\n---\n",
-        "\n## Data Access & API\n",
-        "This repository provides multiple ways to access the data programmatically:\n",
-        "\n### Data Exports\n",
-        "Direct file downloads:",
-        "- [Repository Index (JSON)](data/exports/repo-index.json)",
-        "- [Repository Index (CSV)](data/exports/repo-index.csv)\n",
-        "\n### API Endpoints\n",
-        "When accessed through GitHub Pages:",
+        "\n## Data Access\n",
+        "The generated data is committed to this repository and can be fetched directly:\n",
+        "\n| File | Contents |",
+        "| ---- | -------- |",
+        "| [`repositories.json`](repositories.json) | Full GitHub metadata for every indexed repository |",
+        "| [`indexing-repos.json`](indexing-repos.json) | The specialised indexes, synced from [Subindices](https://github.com/danielrosehill/Subindices) |",
+        "| [`index.md`](index.md) | All repositories as markdown, sorted by update date |\n",
+        "\nRaw URLs, for scripts:\n",
         "```",
-        "# Complete repository data in JSON format",
-        "https://danielrosehill.github.io/Github-Timeline/data/exports/repo-index.json\n",
-        "# Category-specific repository lists",
-        "https://danielrosehill.github.io/Github-Timeline/lists/categories/{category-name}.txt",
+        "https://raw.githubusercontent.com/danielrosehill/Index/main/repositories.json",
+        "https://raw.githubusercontent.com/danielrosehill/Index/main/indexing-repos.json",
         "```\n",
-        "\n### Documentation\n",
-        "For detailed API documentation and usage examples:",
-        "- [Interactive API Documentation](https://danielrosehill.github.io/Github-Timeline/)",
-        "- [API Usage Examples](examples/api-usage.md)\n",
-        "\nThe data is automatically updated whenever the repository is updated.\n"
+        "\nData is regenerated by `scripts/sync-all.sh`; it is not live.\n"
     ])
 
     # Write README
@@ -164,4 +209,4 @@ if __name__ == "__main__":
     print(f"Schema: {schema_path}")
     print(f"Output: {output_path}")
 
-    build_readme(schema_path, output_path)
+    build_readme(schema_path, output_path, base_dir)

@@ -6,15 +6,6 @@ Code snippets for automation building and integration (that might be of interest
 ## Oref Generative Pre-trained Transformer [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Oref-GPT)
 N8N automation that uses TwitterAPI.io to rertieve real-time social media data about the source of rocket alerts in Israel
 
-## Save Artificial Intelligence Outputs To Nuclino N8n [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Save-AI-Outputs-To-Nuclino-N8N)
-N8N workflow for saving AI outputs to Nuclino and posting a notification to Slack
-
-
-## AI Agents [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/AI-Agents)
-Periodically updated index of AI agent configurations that I'm working on (or have created)
-
-## Email AI Outputs Workflow [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Email-AI-Outputs-Workflow)
-N8N workflow for sharing prompts and outputs with friends and family with a reformatting node for smoother MD to email-safe HTML 
 
 ## Israel Morning News Briefs N8N Perplexity Sonar [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Israel-Morning-News-Briefs-N8N-Perplexity-Sonar)
 Using Perplexity API structured prompting and N8N to deliver a tailored news brief
@@ -54,3 +45,12 @@ Config for a text redaction agent for voicenote -> * workflows
 
 ## Voicenotes Prompt To Email Workflow N8N [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voicenotes-Prompt-To-Email-Workflow-N8N)
 No description provided
+
+## Agent Reference Workflows [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Agent-Reference-Workflows)
+Index of repositories that each demonstrate one agentic workflow end to end — kept as working context for designing plugins: what the workflow is, where it worked, and where it broke.
+
+## Whiteboard Ocr Few Shot Learning [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Whiteboard-OCR-Few-Shot-Learning)
+Exploring various vision AI workflows for whiteboard processing
+
+## Electrasmart Custom Component [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/electrasmart-custom-component)
+Home automation integration with Electra Smart type air conditioners

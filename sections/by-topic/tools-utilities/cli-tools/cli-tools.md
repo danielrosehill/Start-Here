@@ -6,5 +6,5 @@ Planning notes for a concept agentic emailing pipeline
 ## Vendor Agent Clis [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Vendor-Agent-CLIs)
 List (may update periodically) of vendor CLIs with agentic/tool-calling capabilities
 
-## Install This Debian [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Install-This-Debian)
-A simple litmus test for assessing whether agentic CLIs are useful for basic desktop admin tasks!
+## Secrets.Md [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/SECRETS.md)
+Secrets manifest primitive — names, vault locations, retrieval CLI (e.g. 1Password op), rotation posture. Never values. Part of AI-Dev-Workspace-Primitives.

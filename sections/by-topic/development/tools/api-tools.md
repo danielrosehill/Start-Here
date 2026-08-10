@@ -16,9 +16,6 @@ Python script for applying bulk updates to models in Open Web UI, changing the b
 ## LLM API Price Estimates [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/LLM-API-Price-Estimates)
 Some cost estimates for using LLMs via API versus web UI services (like ChatGPT)
 
-## Perplexity API Tests 020425 [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Perplexity-API-Tests-020425)
-Quick test prompts to compare respones against various Sonar API endpoints
-
 ## pikud haoref api [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/pikud-haoref-api)
 A Node.js wrapper library for Pikud Haoref's unofficial rocket alert API.
 
@@ -30,3 +27,9 @@ OpenAPI version (non-official, made by Actions GPT) for WAQI API
 
 ## Lan Manager Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/lan-manager-plugin)
 A specialized workspace for network system administration on local area networks, providing tools for LAN scanning, device discovery, device management, and network operations.
+
+## Noisycity Api Blueprint [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/noisycity-api-blueprint)
+Blueprint for a public API for citizen-derived urban environmental data — noise, particulates and vibration from volunteer-operated monitoring stations. Planning repo; noisycity.org is a placeholder.
+
+## Environment.Md [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/ENVIRONMENT.md)
+Development and deployment environment primitive (toolchains, runtimes, Conda, GPU). Part of AI-Dev-Workspace-Primitives.

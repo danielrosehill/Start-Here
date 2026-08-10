@@ -63,3 +63,18 @@ Notebook on Halachic dimensions of smart home usage and Home Assistant
 - [DIY-Baby-Monitoring-Notes](https://github.com/danielrosehill/DIY-Baby-Monitoring-Notes) - Some notes from setting up monitoring systems at home
 
 - [Homebox-Projects-Index](https://github.com/danielrosehill/Homebox-Projects-Index) - Index of Homebox related projects (home inventory system)
+
+## Hardware Blueprints Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Hardware-Blueprints-Index)
+Index of repositories that document physical hardware builds — bills of materials, sourcing, wiring and enclosure specs, and firmware plans
+
+## Ha Blueprints [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/HA_Blueprints)
+Placeholder repo for Home Assistant blueprints I use (mostly by other authors)
+
+## Handy Ubuntu Setup [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Handy-Ubuntu-Setup)
+Notes and setup guides for Ubuntu
+
+## Iran Regime Change Forecast 1004 [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Iran-Regime-Change-Forecast-1004)
+Geopol Forecaster run: probability of forced regime change in Iran (+1 week / +1 month / +1 year). 10-actor simulation + 6-lens council. Headline: <1% / 1-3% / 4-9%.
+
+## Ha White Noise Component [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/HA-White-Noise-Component)
+

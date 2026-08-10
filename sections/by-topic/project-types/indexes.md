@@ -2,15 +2,11 @@
 
 This page lists index repositories that organize and categorize Daniel's GitHub projects.
 
-For a comprehensive list of all specialized indexes, see the **[Index of Indices](https://github.com/danielrosehill/Index-Of-Indices)** repository.
 
 ---
 
 ## AI Agents Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Agents-Index)
 Periodically updated index of AI agent configurations that I'm working on (or have created)
-
-## AI Generated Projects Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/AI-Generated-Projects-Index)
-Index of development projects that were partially or fully developed using AI
 
 ## AI Projects Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/AI-Projects-Index)
 Index of AI project related indices (master index)
@@ -18,14 +14,8 @@ Index of AI project related indices (master index)
 ## Apps Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Apps-Index)
 Indexing repo for apps created
 
-## Awesome List Repos Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Awesome-List-Repos-Index)
-Index of listing repositories I have created
-
 ## Backup Projects Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Backup-Projects-Index)
 Indexing repo of backup related projects and scripts
-
-## Claude Code Repos Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Code-Repos-Index)
-Index of repositories related to Claude Code CLI
 
 ## Data Projects Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Data-Projects-Index)
 Data apps and datasets deployed to Streamlit Community Cloud, Hugging Face, and elsewhere
@@ -39,29 +29,17 @@ Index of repositories concerning AI evaluations and experiments
 ## Gemini Vibe Coding Projects [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Gemini-Vibe-Coding-Projects)
 List of vibe-coded starters created with Google AI Studio app builder
 
-## Github Master Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Github-Master-Index)
-A repository that indexes my Github projects
-
 ## Home Assistant Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Home-Assistant-Index)
 Indexing repo for Home Assistant projects
 
 ## Homebox Projects Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Homebox-Projects-Index)
 Index of Homebox related projects
 
-## Index of Indices [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Index-Of-Indices)
-Index of various indexing repos I have created
-
 ## Israel Projects Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Israel-Projects-Index)
 Index of repositories related to Israel
 
-## Master Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Master-Index)
-This repository serves as a master index linking to the various indices I have for more narrow groupings of topics
-
 ## MCP Projects Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/MCP-Projects-Index)
 Various MCP related projects I'm either working on (or have worked on)
-
-## My Docs Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/My-Docs-Index)
-An index to my various documentation projects, both on Github and elsewhere
 
 ## N8N Workflows Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/N8N-Workflows-Index)
 Index of N8N workflows that I have shared on Github
@@ -81,3 +59,30 @@ Index of repositories containing patches, fixes, workarounds, and system adminis
 - [Geopolitical-And-OSINT-Index](https://github.com/danielrosehill/Geopolitical-And-OSINT-Index) - Index of repositories related to OSINT, geopolitical analysis, and situational awareness
 
 - [Networking-And-Infrastructure-Index](https://github.com/danielrosehill/Networking-And-Infrastructure-Index) - Index of repositories for networking, infrastructure, homelab, and server management
+
+## Browser Scripts Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Browser-Scripts-Index)
+Index of Daniel Rosehill's browser userscripts (Tampermonkey / Violentmonkey / Greasemonkey)
+
+## Architectural Plans Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Architectural-Plans-Index)
+Index of repositories containing architectural plans, blueprints, project specifications, and design documents
+
+## Repo Starters And Templates Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Repo-Starters-And-Templates-Index)
+Index of repo starter templates, scaffolds, and patterns for bootstrapping new projects
+
+## Open Research Workspaces Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Open-Research-Workspaces-Index)
+Index of research notebooks (public)
+
+## Arch And Interiors Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Arch-And-Interiors-Index)
+Resource list for sharing with my favorite architect (my wife) — tools, repos, and mad dabblings.
+
+## Research Tools And Templates Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Research-Tools-And-Templates-Index)
+Research scaffolds and repos
+
+## Wip Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/WIP-Index)
+Work in progress index / parking lot for development when time presents itself!
+
+## Skills Repos Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Skills-Repos-Index)
+
+
+## Price Research Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Price-Research-Index)
+Index of point-in-time API and service pricing snapshots and cost comparisons

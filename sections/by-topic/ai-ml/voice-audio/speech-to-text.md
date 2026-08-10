@@ -6,9 +6,6 @@ Breaks up texts by approximate reading duration
 ## Awesome Whisper Apps [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Awesome-Whisper-Apps)
 Useful speech to text tools that use Whisper under the hood (API/local)
 
-## Speech To Docs [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Speech-To-Docs)
-WIP. Building on a successful POC Whisper notepad, an attempt to build on the idea.
-
 ## Speech To Text System Prompt Library [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Speech-To-Text-System-Prompt-Library)
 An updated skeleton library of system prompts for using LLMs to refine STT output
 
@@ -18,39 +15,12 @@ Some timestampped API pricepoints for speech to text providers
 ## Thought Pad [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Thought-Pad)
 Linux desktop application that provides a two-stage process for creating notes from dictated speech (first stage, transcription via Whisper API; second stage light text formatting). Exports to markdown docs.
 
-## Whisper Converter Linux [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Whisper-Converter-Linux)
-Minimalist AI-generated desktop utility for Linux using Whisper API to transcribe audio files
-
-## Whisper Notepad For Linux [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Whisper-Notepad-For-Linux)
-Notepad for Linux that uses OpenAI Whisper (API) and reformats dictated text
-
-## Whisper Notepad Simple [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Whisper-Notepad-Simple)
-A Linux desktop utility for converting speech to text using the OpenAI Whisper API
-
-
-## Awesome STT Tools [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Awesome-STT-Tools)
-A few useful speech to text tools that I've stumbled across including browser extensions, Linux desktop tools and ASR. 
-
-## Basic STT Cleanup Prompt 0925 [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Basic-STT-Cleanup-Prompt-0925)
-Updated version of my basic STT cleanup/remediation prompt
-
-## Deepgram STT Linux App [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Deepgram-STT-Linux-App)
-Work in progress - AI-assisted STT app for Linux desktop users
-
-## Gemini Desktop Recorder Notepad [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Gemini-Desktop-Recorder-Notepad)
-Voice recorder intended for easy voice note capture with AI (STT) postprocessing/cleanup
 
 ## Green Invoice API My Notes [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Green-Invoice-API-My-Notes)
 Timestampped notes (non-official!) for Green Invoice API & Webhooks
 
-## Linux STT And Voice Assistants [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Linux-STT-And-Voice-Assistants)
-Point in time snapshot/index of STT and voice assistants projects for Linux desktop
-
 ## N8N Voice Note Context Pipeline Workflow [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/N8N-Voice-Note-Context-Pipeline-Workflow)
 Workflow for extracting context data from voice notes and passing them into Pipecone vector database for upserting
-
-## Personal STT Benchmarking [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Personal-STT-Benchmarking)
-Some personal benchmarks of STT models
 
 ## STT Basic Cleanup System Prompt [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/STT-Basic-Cleanup-System-Prompt)
 Basic foundational system prompt for cleaning up AI voice transcripts
@@ -67,26 +37,11 @@ Basic implementation of a prompt concatenation utility for text transformation s
 ## Text Transformation Prompt Library [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Text-Transformation-Prompt-Library)
 Updated repo of text transformation prompts (raw STT transcripts -> *). New repo for capturing via automations.
 
-## Voice Assistant Agent Platforms [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voice-Assistant-Agent-Platforms)
-A list of a few interesting tools for creating context-backed agents & assistants for voice interaction
-
 ## Voice Blog Creator [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voice-Blog-Creator)
 Create a blog (or other doc) from a voice recording
 
-## Voice LLM App Notes [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voice-LLM-App-Notes)
-A few notes describing the kind of voice app for large language models I would love to have!
-
 ## Voice Note Redaction Agent [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voice-Note-Redaction-Agent)
 Config for a text redaction agent for voicenote -> * workflows
-
-## Voice Notepad Prototype Planning [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voice-Notepad-Prototype-Planning)
-Planning and outlining for an AI voice app for organisation
-
-## Voice Notepad With Transformations [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voice-Notepad-With-Transformations)
-Linux voice notepad (latest version) with text transformations in addition to STT
-
-## Voice Prompt Editor [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voice-Prompt-Editor)
-Streamlit app for capturing and editing prompts and system prompts
 
 ## Voice Prompt Enhancement Node [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voice-Prompt-Enhancement-Node)
 Configuration for an intermediate agent in voice automation workflows that bridge voice input to other actions 
@@ -103,20 +58,11 @@ A conceptual voice to prompt pipeline that attempts to separate instructions fro
 ## Voicenotes Prompt To Email Workflow N8N [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voicenotes-Prompt-To-Email-Workflow-N8N)
 No description provided
 
-## Voicenotes Wrapper Linux [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voicenotes-Wrapper-Linux)
-(Unofficial) - destkop wrapper (Ubuntu) for Voicenotes.com AI note taker
-
-## Whisper Transcription Notepad Linux [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Whisper-Transcription-Notepad-Linux)
-Transcription notepad with cloud speech to text (STT) for Linux
-
 ## Local Asr Stt Benchmark [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Local-ASR-STT-Benchmark)
 Quick evaluation to find the best STT model in Speech Note (Ubuntu) for my HW
 
 ## Speech Notes With Text Fixes [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/speech-notes-with-text-fixes)
 Speech Note Linux app. Note taking, reading and translating with offline Speech to Text, Text to Speech and Machine translation.
-
-## Speech Recognition Audio Chain [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Speech-Recognition-Audio-Chain)
-(Claude Code) Attempt to set up a good autostart audio processing chain for STT
 
 ## Crying Baby Audio Scrub [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Crying-Baby-Audio-Scrub)
 Experiment to see if crying baby audio can be scrubbed with audio inpainting (use-case: WIP parenting and content creation!)
@@ -175,12 +121,6 @@ A few test prompts to be used when evaluating audio multimodal models
 ## Speech To Text Chain Notes [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Speech-To-Text-Chain-Notes)
 Notes on STT processing chain (for future voice projects)
 
-## Microphone Audio Samples [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Microphone-Audio-Samples)
-Test samples for various microphones with an STT accuracy eval
-
-## Handy [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Handy)
-A free, open source, and extensible speech-to-text application that works completely offline.
-
 ## Ai Transcription Notepad [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/AI-Transcription-Notepad)
 Voice note taking utility that uses cloud audio multimodal models for single pass transcription and text cleanup
 
@@ -193,10 +133,27 @@ Workflow workspace for importing recordings from a DVR and using AI for transcri
 ## Audio Multimodal Formatting Prompts [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Audio-Multimodal-Formatting-Prompts)
 AI-ideated prompts for single pass audio multimodal transcript formatting
 
-- [parakeet-dictation](https://github.com/danielrosehill/parakeet-dictation) - On-device voice typing for Linux using Parakeet and NeMo ASR models via sherpa-onnx. Built-in punctuation, multiple model profiles, system tray app with configurable hotkeys. No cloud, no GPU required.
 
 - [Dictation-Macropad](https://github.com/danielrosehill/Dictation-Macropad) - Plan/key allocation for a macropad optimised for heavy daily dictation worklflows
 
 - [Modal-ACFT-Finetune-Script](https://github.com/danielrosehill/Modal-ACFT-Finetune-Script) - Validated Whisper fine-tuning script on Modal for FUTO
 
 - [Whisiper-Fine-Tuning-Resources](https://github.com/danielrosehill/Whisiper-Fine-Tuning-Resources) - Some resources for those looking to fine-tune Whisper ASR
+
+## Audacity Transcription Presets [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/audacity-transcription-presets)
+Export presets, silence-trimming settings and macros for turning an Audacity recording into a file optimised for Whisper/AssemblyAI transcription
+
+## Noisy Audio Samples [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Noisy-Audio-Samples)
+
+
+## Audio Understanding Bitrate Eval 0426 [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Audio-Understanding-Bitrate-Eval-0426)
+Empirical eval: how MP3 bitrate affects transcription accuracy across every audio-input LLM on OpenRouter (Gemini, GPT-Audio, Voxtral, MiMo). April 2026.
+
+## Handy Wayland [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Handy-Wayland)
+A free, open source, and extensible speech-to-text application that works completely offline.
+
+## Hebrew Ai Models [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Hebrew-AI-Models)
+A catalog of AI models for the Hebrew language — LLMs, STT, TTS, NLP, embeddings, translation, and more
+
+## Handy Wayland Autostart Fix [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/handy-wayland-autostart-fix)
+Documenting and fixing Handy speech-to-text app failing on KDE Plasma Wayland due to autostart race condition

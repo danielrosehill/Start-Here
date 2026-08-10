@@ -24,3 +24,6 @@ CLI that generates batches of curated recommendations for movies, books, podcast
 
 ## Data Projects Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Data-Projects-Index)
 Data apps and datasets deployed to Streamlit Community Cloud, Hugging Face, and elsewhere. 
+
+## Jlm Air Quality Analysis [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/JLM-Air-Quality-Analysis)
+Halachic relabeling, cross-city control analysis, and validated findings for the Jerusalem-Air-Quality-Shabbat dataset

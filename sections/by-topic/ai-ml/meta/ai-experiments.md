@@ -1,8 +1,5 @@
 # Ai-experiments Repositories
 
-## Assistant Self Ideation 280325 [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Assistant-Self-Ideation-280325)
-AI assistant "self-ideation" run
-
 ## Llama Os Doctor Idea [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Llama-OS-Doctor-Idea)
 Planning notes for an AI agent / experiment
 
@@ -19,6 +16,8 @@ A 100 page book manuscript generated from a single prompt using Sonnet 3.7
 ## Long AI Prompting Experiment [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Long-AI-Prompting-Experiment)
 Experiment testing the "added value" of long context-dense prompts (versus casual converastional prompts) and the value of a voice "prompt optimisation" agent
 
-- [Geopol-Forecaster-POC](https://github.com/danielrosehill/Geopol-Forecaster-POC) - Experimentary prediction analysis for real world events (Iran Israel)
 
 - [Impact-Bond-Policy-Simulator](https://github.com/danielrosehill/Impact-Bond-Policy-Simulator) - Multiagent simulation exploring potential reactions to a social policy iniative
+
+## Ai Synthetic Society Experiments [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/AI-Synthetic-Society-Experiments)
+Resource list of AI projects exploring synthetic AI soceties, multi-agent socialisation, and the ability of these experiments to act as proxies for predicting or better understanding real world behavior

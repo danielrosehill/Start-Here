@@ -278,3 +278,59 @@ index.md      sections/       README.md        sections/*/
 - The hierarchy schema is the single source of truth for categories
 - All scripts are idempotent (safe to re-run)
 - Time indexes use CREATION date, main index uses UPDATE date
+
+## Scope
+
+**Public repositories, forks included.** `hierarchy-schema.json` has a
+deliberate `project-types/forks.md` category, so do not add `--source` to the
+`gh repo list` calls to filter forks out — it empties that category. Private
+repos are excluded; this repo is public.
+
+As of 2026-08-10 that is 1059 repos, which matches `gh api users/danielrosehill
+--jq .public_repos`. Use that as the cross-check after a sync: if `index.md`
+disagrees with it, the pull is wrong.
+
+## Known traps
+
+**`sync-all.sh` only ever adds.** `pull-and-index.py` appends newly seen repos
+to the section files and never removes anything, so deleted, renamed and
+newly-private repos accumulate. `cleanup-deleted-repos.py` is what prunes them
+and it is *not* wired into `sync-all.sh`. The full correct sequence is:
+
+```bash
+./scripts/sync-all.sh                              # add new
+python3 scripts/cleanup-deleted-repos.py           # dry run, review
+python3 scripts/cleanup-deleted-repos.py --execute # prune stale
+./scripts/sync-all.sh                              # regenerate
+```
+
+Skipping the middle two is how the index reached 345 stale entries by
+2026-08-10.
+
+**A round number in the repo count means truncation.** `gh repo list` defaults
+to 30 and caps at whatever `--limit` says; the scripts asked for exactly 1000
+and got exactly 1000 back, silently losing the rest. The account has ~2450
+repos including forks and private, so `--limit` must stay comfortably above
+that. Any total that is exactly 1000, or exactly matches the limit, is a
+truncated pull, not a real count.
+
+**Indexing repos come from Subindices.** `sync-indexing-repos.py` pulls
+`indices.json` from `danielrosehill/Subindices` (formerly `Index-Of-Indices`;
+the old name still works via GitHub's rename redirect, which is why the stale
+reference went unnoticed for months). Over there `indices.json` is generated
+from `README.md` — to add an index repo, edit that repo's README, not anything
+here.
+
+**Renamed repos look healthy.** GitHub answers on the old slug indefinitely, so
+a stale link returns 200. Compare `.full_name` against the slug you requested,
+not the status code.
+
+## Categorisation backlog
+
+The keyword matcher leaves some repos unfiled — 29 at the 2026-08-10 sync, most
+of them hardware, label-printing and Eurobox repos whose vocabulary the schema
+does not cover. They still appear in `index.md` and the time indexes; they are
+just absent from `sections/by-topic/`. Fix by adding keywords to
+`hierarchy-schema.json` and re-running, rather than by hand-editing sections.
+The report naming these lands in `scripts/indexing-report-*.json` (gitignored);
+note its `name` field is currently always `null`, so match on `description`.

@@ -39,9 +39,9 @@ class RepositoryIndexer:
 
         cmd = [
             "gh", "repo", "list", GITHUB_USER,
-            "--limit", "1000",
+            "--limit", "4000",
             "--json", "name,description,url,updatedAt,isPrivate,repositoryTopics",
-            "--public"
+            "--visibility", "public"
         ]
 
         try:

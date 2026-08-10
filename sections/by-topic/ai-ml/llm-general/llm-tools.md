@@ -9,9 +9,6 @@ Using Gemini structured outputs to ideate a prompt library for Open Web UI
 ## Hebrew Llms [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Hebrew-LLMs)
 A pathfinder repo (index) to some Hebrew language LLMs on Hugging Face
 
-## My Prompt Libraries [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/My-Prompt-Libraries)
-Index for my collections of user and system prompts on Github
-
 ## Ollama Ideation Ui [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Ollama-Ideation-UI)
 Desktop app for running batch "ideation" prompts with a local LLM
 
@@ -29,7 +26,4 @@ Streamlit generator to aid with the creation of structured prompts
 
 ## Text Transformation Prompt Collection 2 [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Text-Transformation-Prompt-Collection-2)
 An abbreviated collection of STT transformation prompts
-
-## Vs Code Large Language Model Tools [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/VS-Code-LLM-Tools)
-A list of some extensions for working with large language models (LLMs) within the VS Code IDE
 

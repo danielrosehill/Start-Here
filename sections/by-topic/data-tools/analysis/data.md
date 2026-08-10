@@ -24,9 +24,6 @@ Model data pipeline from a Github repository to Open Web UI knowledge using acti
 ## Global Value Factors Explorer Dataset [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Global-Value-Factors-Explorer-Dataset)
 Derivative database of IFVI Global Value Factors for data analysis and visualization use cases. 
 
-## Impactdbpipeline [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/ImpactDBPipeline)
-Data ingress pipeline for Impact Database 
-
 ## Impactinvestingdata [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/ImpactInvestingData)
 A repository for housing visualisations and analyses of data related to impact investing approaches
 
@@ -48,7 +45,6 @@ Source data and documentation for corporat sustainability disclosures/reporting
 ## Value Factors Data Vis [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Value-Factors-Data-Vis)
 Streamlit app containing visualisations of the Global Value Factors Database (GVFD) released by the IFVI in 2024
 
-
 ## AI Output Storage Backend Data Models [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/AI-Output-Storage-Backend-Data-Models)
 Some simple data tables for populating a backend for storing prompt runs
 
@@ -67,17 +63,11 @@ System prompts for data-related AI assistants
 ## Environmental Data   AI Assistants [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Environmental-Data---AI-Assistants)
 This repository is a gathering of AI assistants that I've developed for analysing sustainability-related data
 
-## Fun LLM Data Prompts [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Fun-LLM-Data-Prompts)
-As prompting fro data analysis & vis is quite specific, a small side collection of prompts for this purpose
-
 ## GHG EBITDA Correlations [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/GHG-EBITDA-Correlations)
 Streamlit data visualisation examining correlation between emissions & profitability
 
 ## ISO3166 4217 Consolidated [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/ISO3166-4217-Consolidated)
 Informal consolidation of ISO-3166 and ISO-4217 for geographic financial analysis
-
-## Israel Gov Open Data [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Israel-Gov-Open-Data)
-Notebook for recording any intersting datasets from data.gov.il (israeli open data)
 
 ## Monetised GHG Emissions [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Monetised-GHG-Emissions)
 Calculating monetised GHG emissions for various companies based upon disclosure data
@@ -91,12 +81,22 @@ Point-in-time analysis of impact bond data from INDIGO (Government Outcomes Lab,
 ## Sustainability And Impact Data Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Sustainability-And-Impact-Data-Index)
 Index of repositories related to sustainability, GHG emissions, ESG, and environmental impact data
 
-Local relay proxy for Israel Homefront Command (Pikud HaOref) alert data
-
 ## Iran Israel War 2026 Osint Data [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Iran-Israel-War-2026-OSINT-Data)
 Structuring the data footprint of the Iranian aerial warfare attacks on Israel, the US, and others from 2024-present.
 
 ## Jlm Shelters Data [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/jlm-shelters-data)
 Community-maintained dataset of public bomb shelters in Jerusalem. Data pipeline for jlmshelters.com
 
-Template for using Claude Code to streamline website data analytics
+## Israel Open Data Changelog [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Israel-Open-Data-Changelog)
+Unofficial month-by-month changelog of what appeared on Israel's data.gov.il open data portal, reconstructed from the CKAN API
+
+## Scraping And Data Extraction Resources [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Scraping-And-Data-Extraction-Resources)
+Curated index of scraping and data extraction tools, with a focus on packaging web data for AI agents
+
+## Claude Data Analyst Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Data-Analyst-plugin)
+First pass data analysis skills for Claude Code
+
+## Flood Data Analyst Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Flood-Data-Analyst-plugin)
+
+## Ai Data Utilities [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/AI-Data-Utilities)
+Curated list of open-source AI tooling for data work — agents, chat-with-data, visualisation, cleaning, and resource lists.

@@ -1,8 +1,5 @@
 # Data-processing Repositories
 
-## Abusive Message Parser Artificial Intelligence Config [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Abusive-Message-Parser-AI-Config)
-Configuration text for an LLM assistant designed to assist users with documenting abusive messages
-
 ## Asr Training Data Chunker [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/ASR-Training-Data-Chunker)
 Breaks up texts by approximate reading duration
 
@@ -39,17 +36,11 @@ A taxonomy to categorise companies' variations of "remote friendliness" for pers
 ## Iso Loookup Assistants [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/ISO-Loookup-Assistants)
 Lookup agents to assist with standardising datasets with correct ISO values
 
-## Israel Gov Open Data [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Israel-Gov-Open-Data)
-Notebook for recording any intersting datasets from data.gov.il (israeli open data)
-
 ## Israel Morning News Briefs N8n Perplexity Sonar [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Israel-Morning-News-Briefs-N8N-Perplexity-Sonar)
 Using Perplexity API structured prompting and N8N to deliver a tailored news brief
 
 ## Israel News Rss Feeds [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Israel-News-RSS-Feeds)
 Collection of RSS feeds about news in Israel
-
-## Jerusalem Tech Companies [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Jerusalem-Tech-Companies)
-Mapping tech companies in Jerusalem, Israel
 
 ## My Calculators [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/My-Calculators)
 Unit exchange calculators for calculations I commonly require
@@ -89,9 +80,6 @@ System prompts for configuring AI assistants to help book authors including proo
 
 ## Tech Stack [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Tech-Stack)
 Tech stack and recommendations
-
-## Tech Tool Prompting 0525 [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Tech-Tool-Prompting-0525)
-Some stack evaluation prompts as I try to finish my stack "updating" process
 
 ## Waqi Prometheus Pull [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/WAQI-Prometheus-Pull)
 Simple pull script for World Air Quality Index (WAQI) data for integrating with Grafana

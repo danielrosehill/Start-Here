@@ -17,3 +17,12 @@ AI workflows for building personal RAG pipelines with interviewing agents
 
 ## Voice Note Ragie Pipeline [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voice-Note-Ragie-Pipeline)
 Test pipeline: voice context data to Ragie
+
+## Storage Container Calculator [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/storage-container-calculator)
+
+
+## Warehouse Apartment [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/warehouse-apartment)
+Field manual for a home storage & moving system built on industrial logistics standards (Euroboxes, pallets, picking bins) — born of Israel's tenancy-at-will rental market.
+
+## Storage Box 3D Models [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/storage-box-3d-models)
+

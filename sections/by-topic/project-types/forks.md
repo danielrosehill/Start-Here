@@ -15,17 +15,11 @@ A curated list of Israeli-made projects, events, and individuals
 ## Awesome Prompt Engineering [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Awesome-Prompt-Engineering)
 This repository contains a hand-curated resources for Prompt Engineering with a focus on Generative Pre-trained Transformer (GPT), ChatGPT, PaLM etc 
 
-## Dsnote [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/dsnote)
-Speech Note Linux app. Note taking, reading and translating with offline Speech to Text, Text to Speech and Machine translation.
-
 ## Every Chatgpt Gui [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/every-chatgpt-gui)
 Every front-end GUI client for ChatGPT, Claude, and other LLMs
 
 ## Fonts [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/fonts)
 Font files available from Google Fonts, and a public issue tracker for all things Google Fonts
-
-## Homebox [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/homebox)
-A continuation of HomeBox the inventory and organization system built for the Home User
 
 ## Jewish Sabbaths Holidays [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Jewish-Sabbaths-Holidays)
 Jewish Shabbat Yomtov and Holidays times and event
@@ -69,23 +63,11 @@ A Node.js wrapper library for Pikud Haoref's unofficial rocket alert API.
 ## Refine Public Mods [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/refine-public-mods)
 A React Framework for building  internal tools, admin panels, dashboards & B2B apps with unmatched flexibility.
 
-## Roo Code [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Roo-Code)
-Roo Code (prev. Roo Cline) gives you a whole dev team of AI agents in your code editor.
-
-## Roo Code Docs [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Roo-Code-Docs)
-This is the documentation for Roo Code (prev. Roo Cline), an AI-powered autonomous coding agent that lives in your editor.
-
 ## Sim [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/sim)
 Sim Studio is an open-source agent workflow builder. Sim Studio's interface is a lightweight, intuitive way to quickly build and deploy LLMs that connect with your favorite tools.
 
 ## Twofactorauth [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/twofactorauth)
 List of sites with two factor auth support which includes SMS, email, phone calls, hardware, and software.
-
-
-## Wheres My Stuff [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Wheres-My-Stuff)
-Homebox fork to add a few AI twists (home inventory management)
-
-Taxonomy for Homebox fork
 
 - [donetick](https://github.com/danielrosehill/donetick) - Donetick an open-source, user-friendly app for managing tasks and chores, featuring customizable options to help you and others stay organized
 

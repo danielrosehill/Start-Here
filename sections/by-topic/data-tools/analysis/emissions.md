@@ -18,9 +18,6 @@ Calculation simulation utility for monetised GHG emissions
 ## Ghg Vs Ebitda V2 [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/GHG-vs-EBITDA-V2)
 Another data visualisation series comparing companies' GHG emissions with their EBITDA
 
-## Monetised Emissions V2 [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Monetised-Emissions-V2)
-Monetised
-
 ## Monetised Ghg Emissions [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Monetised-GHG-Emissions)
 Calculating monetised GHG emissions for various companies based upon disclosure data
 

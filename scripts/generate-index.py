@@ -28,9 +28,9 @@ class IndexGenerator:
 
         cmd = [
             "gh", "repo", "list", GITHUB_USER,
-            "--limit", "1000",
+            "--limit", "4000",
             "--json", "name,description,url,updatedAt,createdAt,isPrivate,repositoryTopics,stargazerCount,forkCount",
-            "--public"
+            "--visibility", "public"
         ]
 
         try:

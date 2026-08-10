@@ -34,9 +34,6 @@ This repo includes ChatGPT prompt curation to use ChatGPT better.
 ## awesome claude code [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/awesome-claude-code)
 A curated list of awesome commands, files, and workflows for Claude Code
 
-## Awesome Kubernetes Linux Desktop [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Awesome-Kubernetes-Linux-Desktop)
-GUIs and other tools that make managing Kubernetes clusters easier for Linux desktop users (I use Ubuntu but will add resources for other distros)
-
 ## awesome mcp clients [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/awesome-mcp-clients)
 A collection of MCP clients.
 
@@ -49,20 +46,11 @@ A curated list of Israeli-made projects, events, and individuals
 ## Awesome Prompt Engineering [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Awesome-Prompt-Engineering)
 This repository contains a hand-curated resources for Prompt Engineering with a focus on Generative Pre-trained Transformer (GPT), ChatGPT, PaLM etc 
 
-## Awesome Self Hosted AI Tools [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Awesome-Self-Hosted-AI-Tools)
-Great AI tools that can be self-hosted
-
-## Awesome STT Tools [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Awesome-STT-Tools)
-A few useful speech to text tools that I've stumbled across including browser extensions, Linux desktop tools and ASR. 
-
 ## Awesome Whisper Apps [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Awesome-Whisper-Apps)
 Useful speech to text tools that use Whisper under the hood (API/local)
 
-## Awesome List Repos Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Awesome-List-Repos-Index)
-Index of listing repositories I have created
-
-## Awesome Torah Tech [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Awesome-Torah-Tech)
-Projects bringing technical sophistication to Jewish religious texts and interpretation
-
 ## Awesome Red Alerts [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Awesome-Red-Alerts)
 A curated list of red alert (צבע אדום) civilian notification projects for Israel
+
+## Awesome Modal [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/awesome-modal)
+A curated list of amazingly awesome Modal applications, demos, and shiny things. Inspired by awesome-php.

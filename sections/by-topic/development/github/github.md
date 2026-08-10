@@ -1,22 +1,7 @@
 # Github Repositories
 
-## Github Master Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Github-Master-Index)
-A repository that indexes my Github projects
-
-## Github Repo Pruner [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Github-Repo-Pruner)
-Helps to discard old repositories from a local filesystem (for Linux)
-
 ## Homepage [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Homepage)
 A homepage for my Github account. This page gives an overview of the projects I'm working on and sharing on Github.
-
-## Linux Github Repo Launcher [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Linux-Github-Repo-Launcher)
-Github repository search and quick launch utility preconfigured for VS Code & Windsurf
-
-## Claude Github Shortlister [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Github-Shortlister)
-Template: use Claude to shortlist potentlal tools/components
-
-## How I Use Github Fyi [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/How-I-Use-Github-FYI)
-For those who don't like their feeds being spammed...
 
 ## Logitech C925E Boot Configurator [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Logitech-C925E-Boot-Configurator)
 v4l2 configuration script for Logitech C925e webcam - sets 1080p @ 24fps MJPEG on boot
@@ -39,4 +24,24 @@ WIP - system for managing things you star on Github
 ## Github Management Tools Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/GitHub-Management-Tools-Index)
 Index of repositories for GitHub and repository management tools, automation, and utilities
 
-- [Repo-Fresh-Starter](https://github.com/danielrosehill/Repo-Fresh-Starter) - Quick util for creating a new repository for iterating on ideas
+
+## Stars Viewer [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Stars-Viewer)
+Export of GitHub stars organized by type
+
+## Pinecone Github Repos Sync [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Pinecone-GitHub-Repos-Sync)
+Daily GitHub Action: mirrors non-archived danielrosehill GitHub repos into Pinecone (daniel-personal/github-repos) with stale-record deletion.
+
+## Claude Github Explorer Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Github-Explorer-Plugin)
+
+
+## Project Flow [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Project-Flow)
+"High level" diary/changelog for open source and Github projects
+
+## Github Research Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/github-research-plugin)
+
+
+## Github Repo Org Question [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Github-Repo-Org-Question)
+Stack/tooling research workspace for a bulk Github repo manager for more efficient repo mgmt
+
+## Github Index Maintainer [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Github-Index-Maintainer)
+Maintance agent for indexing repos

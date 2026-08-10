@@ -9,9 +9,6 @@ Examples of AI prompts for code generation (Python GUI) and some notes on emergi
 ## Awesome Prompt Engineering [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Awesome-Prompt-Engineering)
 This repository contains a hand-curated resources for Prompt Engineering with a focus on Generative Pre-trained Transformer (GPT), ChatGPT, PaLM etc 
 
-## Awesome Speech to Text Tools [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Awesome-STT-Tools)
-A few useful speech to text tools that I've stumbled across including browser extensions, Linux desktop tools and ASR. 
-
 ## Better Hashnode Backups [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Better-Hashnode-Backups)
 Backups a Hashnode blog including the images from the CDN
 
@@ -23,15 +20,6 @@ Custom instructions for ChatGPT
 
 ## Chatgpt Stylistic System Prompts [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/ChatGPT-Stylistic-System-Prompts)
 Some boilerplate responses to "how do  you want ChatGPT to behave"? to play around with creating different chat experiences through simple configs
-
-## Cline Roo Code Repo Template [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Cline-Roo-Code-Repo-Template)
-Repo template for Cline / Roo Code AI dev with my docs-as-prompts approach!
-
-## Cline Website Creation Demo [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Cline-Website-Creation-Demo)
-Demonstration project for YouTube using referred prompts for development
-
-## Daniel Public Changelog [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Daniel-Public-Changelog)
-A publicly accessible changelog of all my technical projects
 
 ## Data Analysis Notebook [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Data-Analysis-Notebook)
 A public notebook of some analytical work with datasets
@@ -45,29 +33,14 @@ Utility for helping users understand the classic data relationships in RDMSs (M2
 ## Database Relationship Identifier Postgres [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Database-Relationship-Identifier-Postgres)
 Utility that creates a human-readable manifest of the relationships contained in a Postgres database
 
-## Deepgram Speech to Text Linux App [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Deepgram-STT-Linux-App)
-Work in progress - AI-assisted STT app for Linux desktop users
-
-## Demo Github Repo Cleaner Utility [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Demo-Github-Repo-Cleaner-Utility)
-Demo repo for a YouTube video to share some thoughts about prompting for code generation.
-
 ## Email Management System Prompts [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Email-Management-System-Prompts)
 Writing and email management system prompts for assistants
 
 ## General System Prompts [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/General-System-Prompts)
 Some system prompts intended to (attempt to) configure neutral behavior from LLMs
 
-## Great Artificial Intelligence Convos [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Great-AI-Convos)
-A few timestampped conversations with AI tools that left an impression, recorded for posterity
-
 ## Jewish Artificial Intelligence Assistant System Prompts [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Jewish-AI-Assistant-System-Prompts)
 System prompts for AI tools which may be useful for Jewish users
-
-## Mr David Rosen [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Mr-David-Rosen)
-An LLM-generated alias to explore contextually guided prompting strategies
-
-## My Code Gen Copilot [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/My-Code-Gen-Copilot)
-Layered config for a code-gen assistant developed using Continue's clever approach
 
 ## Prompt And Output System Prompt [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Prompt-And-Output-System-Prompt)
 System prompt for directing an AI agent to begin every output with a sumary of the user's prompt
@@ -84,21 +57,12 @@ System prompts for using AI tools to generate and improve system prompts
 ## System Prompt Tuning Agent N8n [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/System-Prompt-Tuning-Agent-N8N)
 N8N agent workflow for an agent that recommends fixes to system prompts based on structured user inputs provided by form
 
-## Tech Tool Prompting 0525 [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Tech-Tool-Prompting-0525)
-Some stack evaluation prompts as I try to finish my stack "updating" process
-
 ## The Jerusalem Odyssey Text [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/The-Jerusalem-Odyssey-Text)
 A 100 page book manuscript generated from a single prompt using Sonnet 3.7
-
-## Voice Prompt Editor [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voice-Prompt-Editor)
-Streamlit app for capturing and editing prompts and system prompts
 
 ## Writing System Prompts [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Writing-System-Prompts)
 Some system prompts related to text modification and optimisation for some WIPs
 
-
-## AI Assistant System Prompt Library 0325 Export [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/AI-Assistant-System-Prompt-Library-0325-Export)
-Point in time export of system prompts in natural language (markdown)
 
 ## AI Orchestration System Prompts [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/AI-Orchestration-System-Prompts)
 System prompts for AI assistants designed to orchestrate access to other agents
@@ -112,9 +76,6 @@ This repo includes ChatGPT prompt curation to use ChatGPT better.
 ## Awesome LLM Prompt Libraries [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Awesome-LLM-Prompt-Libraries)
 An index of prompting libraries for GPTs, including ChatGPT. Some of these are on Github and others are hosted externally.
 
-## Basic STT Cleanup Prompt 0925 [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Basic-STT-Cleanup-Prompt-0925)
-Updated version of my basic STT cleanup/remediation prompt
-
 ## Careers Utilities System Prompts [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Careers-Utilities-System-Prompts)
 System prompts for AI assistants related to career and job matters
 
@@ -123,9 +84,6 @@ System prompts for data-related AI assistants
 
 ## Eco Ninja 3 [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Eco-Ninja-3)
 Configuration for an LLM assistant that performs analysis on sustainability data
-
-## Fun LLM Data Prompts [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Fun-LLM-Data-Prompts)
-As prompting fro data analysis & vis is quite specific, a small side collection of prompts for this purpose
 
 ## Gemini Prompt Library ideator [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Gemini-Prompt-Library-ideator)
 Using Gemini structured outputs to ideate a prompt library for Open Web UI
@@ -145,38 +103,17 @@ Experiments in evaluating various prompting strategies and LLM performance gener
 ## LLM Prompt Extraction GUI [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/LLM-Prompt-Extraction-GUI)
 GUI for extracting prompts from outputs
 
-## LLMs on LLMs [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/LLMs-on-LLMs)
-Large language models (LLMs) explaining themselves - and how to make best use of them (prompt engineering). Often insightful, though accuracy not guaranteed!
-
 ## Long AI Prompting Experiment [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Long-AI-Prompting-Experiment)
 Experiment testing the "added value" of long context-dense prompts (versus casual converastional prompts) and the value of a voice "prompt optimisation" agent
 
-## My Principles Of Prompting [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/My-Principles-Of-Prompting)
-A small and opinionated repository of my thoughts about prompting LLMs to maximise their utility for specific use-cases
-
-## My Prompt Libraries [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/My-Prompt-Libraries)
-Index for my collections of user and system prompts on Github
-
 ## No BS AI System Prompt [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/No-BS-AI-System-Prompt)
 System prompt for a blunt AI assistant / LLM that gets to the point
-
-## Obisidian Prompt Output Saver Local Only [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Obisidian-Prompt-Output-Saver-Local-Only)
-A GUI component for the Obsidian vault project. This saves prompts and outputs into the vault but doesn't integrate with an LLM API
-
-## Obsidian Prompt Output Saver [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Obsidian-Prompt-Output-Saver)
-A utility for running prompts through the OpenAI API and saving them into an Obsidian Vault structured for LLM output storage
 
 ## One Prompt AI Book [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/One-Prompt-AI-Book)
 Experiment - generating a book using a single prompt
 
 ## OpenWebUI Prompt Library [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/OpenWebUI-Prompt-Library)
 A selection of prompts designed for use with Open Web UI (rather than conventional prompts, they're more useful for steering existing conversations)
-
-## Prompt And Output Separator [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Prompt-And-Output-Separator)
-Streamlit-deployed app which attempts to separate prompts and outputs from continuous text files
-
-## Prompt Builder [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Prompt-Builder)
-Work in progress. Assemble prompts based upon templated forms in the browser. 
 
 ## Prompt Engineering Resources [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Prompt-Engineering-Resources)
 Lists of resources and tools for prompt engineering and evaluation
@@ -186,9 +123,6 @@ A repository of prompts I've used when working with LLMs as well as some example
 
 ## Prompt Library Privacy Screener [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Prompt-Library-Privacy-Screener)
 Model for a PII screen (using Ollama) for open sourcing prompt libraries safely
-
-## Prompt Puncutation Experiment [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Prompt-Puncutation-Experiment)
-Experimenting to test the effect of puncutation in prompts on inference quality
 
 ## Prompt Snippet Library [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Prompt-Snippet-Library)
 Snippets/building blocks for system prompts
@@ -220,20 +154,11 @@ Basic foundational system prompt for cleaning up AI voice transcripts
 ## System Prompt Factory [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/System-Prompt-Factory)
 A system prompt generation UI that combines model and user characteristics to generate more targeted (but still general) system prompts for LLMs
 
-## System Prompt Generation Agent Configs [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/System-Prompt-Generation-Agent-Configs)
-A collection of system prompts for agents instructed to generate or edit system prompts for other AI agents (yes, you read that right!)
-
 ## System Prompt Library [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/System-Prompt-Library)
 System prompts for AI agents and assistants (automatically populated); periodic point in time exports are releases
 
-## System Prompts 0425 [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/System-Prompts-0425)
-A new repo for new system prompts
-
 ## System Prompts For Book Authors [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/System-Prompts-For-Book-Authors)
 System prompts for configuring AI assistants to help book authors including proofreading assistants and book marketing ideation tools
-
-## Task Management App Prompt [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Task-Management-App-Prompt)
-A versioned prompt just to find one tool! (Experimenting with prompt length and details provided to improve accuracy!)
 
 ## Test System Prompts [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Test-System-Prompts)
 A collection of system prompts organised by capabilities for testing out various agent/assistant platforms
@@ -250,9 +175,6 @@ Basic implementation of a prompt concatenation utility for text transformation s
 ## Text Transformation Prompt Library [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Text-Transformation-Prompt-Library)
 Updated repo of text transformation prompts (raw STT transcripts -> *). New repo for capturing via automations.
 
-## Veo 31 Prompts [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Veo-31-Prompts)
-A few ridiculous prompts for trying out Veo 3.1
-
 ## Voice Prompt Enhancement Node [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voice-Prompt-Enhancement-Node)
 Configuration for an intermediate agent in voice automation workflows that bridge voice input to other actions 
 
@@ -268,9 +190,6 @@ No description provided
 ## Image To Image Prompts [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Image-To-Image-Prompts)
 Loose collection of image to image prompts for common transformations
 
-## My Weird Prompts [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/My-Weird-Prompts)
-Blog/podcast made out of colorful (and mundane) AI prompts - and answers!
-
 ## Notebooklm Custom Prompts [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/NotebookLM-Custom-Prompts)
 AI config / system prompt for reading long reports
 
@@ -280,12 +199,24 @@ Podcast production pipeline for an AI-human co-generated podcast
 ## Perspective Finder Prompt [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Perspective-Finder-Prompt)
 Prompt for mapping out nuances in debates
 
-## Circular Prompting [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Circular-Prompting)
-Notes/docs for a prompting method for AI agents
-
 ## Stack Research Prompt Mini Eval [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Stack-Research-Prompt-Mini-Eval)
 Testing how various AI tools handle "stack request" prompts - a staple of my AI use!
 
 - [You-Are-Stuck](https://github.com/danielrosehill/You-Are-Stuck) - Plan/idea for agentic coding
 
 - [My-Tone-Of-Voice](https://github.com/danielrosehill/My-Tone-Of-Voice) - Slash/technique for capturing tone of voice reference for AI agents
+
+## 3D Models [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/3D-Models)
+Shared 3D character models (Corn, Herman) for My Weird Prompts games and projects
+
+## Prompt Categorizer Notes [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Prompt-Categorizer-Notes)
+Notes for a small classifier that splits prompts into prompt/context/host-instruction tracks for agentic pipelines
+
+## Weird Prompts Episode Suggester [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Weird-Prompts-Episode-Suggester)
+
+
+## Tech Diagram Image Gen Prompts [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Tech-Diagram-Image-Gen-Prompts)
+Reusable .prompty library of tech-diagram image-gen prompts (whiteboard cleanup, 28 styles, 33 diagram types)
+
+## General Ai Notebook [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/General-AI-Notebook)
+Prompts and outputs from AI models

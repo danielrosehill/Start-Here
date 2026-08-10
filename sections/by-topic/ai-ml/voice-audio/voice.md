@@ -1,22 +1,10 @@
 # Voice Repositories
 
-## Awesome Speech to Text Tools [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Awesome-STT-Tools)
-A few useful speech to text tools that I've stumbled across including browser extensions, Linux desktop tools and ASR. 
-
 ## Better Hashnode Backups [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Better-Hashnode-Backups)
 Backups a Hashnode blog including the images from the CDN
 
 ## Bias Censorship Eval Tests [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Bias-Censorship-Eval-Tests)
 Some loosely organised experiments intended to probe the levels of political censorship inherent in LLMs
-
-## Cline Roo Code Repo Template [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Cline-Roo-Code-Repo-Template)
-Repo template for Cline / Roo Code AI dev with my docs-as-prompts approach!
-
-## Cline Website Creation Demo [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Cline-Website-Creation-Demo)
-Demonstration project for YouTube using referred prompts for development
-
-## Daniel Public Changelog [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Daniel-Public-Changelog)
-A publicly accessible changelog of all my technical projects
 
 ## Data Analysis Notebook [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Data-Analysis-Notebook)
 A public notebook of some analytical work with datasets
@@ -29,31 +17,6 @@ Utility for helping users understand the classic data relationships in RDMSs (M2
 
 ## Database Relationship Identifier Postgres [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Database-Relationship-Identifier-Postgres)
 Utility that creates a human-readable manifest of the relationships contained in a Postgres database
-
-## Deepgram Speech to Text Linux App [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Deepgram-STT-Linux-App)
-Work in progress - AI-assisted STT app for Linux desktop users
-
-## Demo Github Repo Cleaner Utility [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Demo-Github-Repo-Cleaner-Utility)
-Demo repo for a YouTube video to share some thoughts about prompting for code generation.
-
-## Pdf Extract And Text to Speech [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/PDF-Extract-And-TTS)
-Streamlit app using Google Cloud APIs to extract core text from a PDF and perform TTS. For listening to long docs. API keys required.
-
-## Personal Speech to Text Benchmarking [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Personal-STT-Benchmarking)
-Some personal benchmarks of STT models
-
-## Voice Assistant Agent Platforms [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voice-Assistant-Agent-Platforms)
-A list of a few interesting tools for creating context-backed agents & assistants for voice interaction
-
-## Voice Large Language Model App Notes [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voice-LLM-App-Notes)
-A few notes describing the kind of voice app for large language models I would love to have!
-
-## Voice Notepad With Transformations [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voice-Notepad-With-Transformations)
-Linux voice notepad (latest version) with text transformations in addition to STT
-
-
-## Ai Shopping Advisor [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/AI-Shopping-Advisor)
-Demo/example voice prompt to purchasing recs agent config
 
 ## Ai Personal Eq Creator [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/AI-Personal-EQ-Creator)
 AI Studio starter - upload voice sample, get EQ preset
@@ -75,13 +38,6 @@ Planning notes for a macropad for STT users
 
 ## Voice Input Models [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/voice-input-models)
 
-
-## Linux Voice And Dictation Resources [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Linux-Voice-And-Dictation-Resources)
-Resource list to gather up some projects for speech to text, voice typing, and voice productivity that are accessible on Linux (fast growing space - partial list!)
-
-## Deepgram Voice Keyboard [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/deepgram-voice-keyboard)
-A fork of Deeepgram's Linux starter. CLI -> GUI + hotkey support, API key editing, cost tracking. WIP
-
 ## Voice Note Recorder Ubuntu [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voice-Note-Recorder-Ubuntu)
 GUI for recording voice notes
 
@@ -93,9 +49,6 @@ Helper utils for generating training data for voice cloning with LLMs
 
 ## Wayland Voice Typer [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Wayland-Voice-Typer)
 Simple GUI around whisper.cpp for voice-to-text on Linux
-
-## Linux Friendly Voice Tech [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Linux-Friendly-Voice-Tech)
-List of resources for voice technology with support for Linux, encompassing STT, ASR primarily as well as dev frameworks.
 
 ## Hyprvoice [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/hyprvoice)
 Voice‑powered typing for Wayland/Hyprland desktops
@@ -109,13 +62,8 @@ Self-host the powerful Chatterbox TTS model. This server offers a user-friendly 
 ## Voice Cleanup Prompt Experiment [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voice-Cleanup-Prompt-Experiment)
 Testing various permutations in system prompting for raw audio transcript cleanup and comparing multimodal ASR vs. the STT + LLM approach
 
-## Ai Typer V2 [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/AI-Typer-V2)
-Voice dictation with multimodal AI cleanup — speak naturally, get polished text
-
 ## Voicetype [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/VoiceType)
 A fork of Deeepgram's Linux starter. CLI -> GUI + hotkey support, API key editing, cost tracking. WIP
-
-Slash/technique for capturing tone of voice reference for AI agents
 
 ## Voice Cloning Difference Test [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voice-Cloning-Difference-Test)
 Quick test to see how much of a difference sample intonation makes in single shot voice cloning!
@@ -126,3 +74,26 @@ Claude-enhanced research for voice control platforms with Linux support
 - [Hebrew-TTS-Providers](https://github.com/danielrosehill/Hebrew-TTS-Providers) - Point in time snapshot of TTS providers with Modern Hebrew support
 
 - [One-Plus-Internal-Mic-Testing](https://github.com/danielrosehill/One-Plus-Internal-Mic-Testing)
+
+## Ai Commander 2026 [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/AI-Commander-2026)
+A gag voice assistant for Ubuntu. Real speech recognition, retro-futurist theatre, deliberately zero side effects.
+
+## Voxtype [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voxtype)
+Voice dictation with multimodal AI cleanup — speak naturally, get polished text
+
+## Voice Apps Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voice-Apps-Index)
+Index for STT and ditation apps and WIPs
+
+## Audio Voice Id Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/audio-voice-id-plugin)
+Claude Code plugin for speaker diarization, voice enrollment, and identification
+
+## The User Voice Types [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/The-User-Voice-Types)
+
+## Linux Voice Tech [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Linux-Voice-Tech)
+List of resources for voice technology with support for Linux, encompassing STT, ASR primarily as well as dev frameworks.
+
+## Readiness Voice Agent [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Readiness-Voice-Agent)
+Voice agent implemenetation for readiness checklists
+
+## Voicebox [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/VoiceBox)
+Idea for a spech tech solution  - specced out by Claude

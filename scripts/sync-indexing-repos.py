@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
 """
-Sync indexing repositories list from Index-Of-Indices repo.
+Sync indexing repositories list from the Subindices repo.
 
-Fetches the indices.json file from the Index-Of-Indices repository
-and saves it locally for use by this indexing system.
+Fetches the indices.json file from the Subindices repository and saves it
+locally for use by this indexing system.
+
+Subindices was formerly named Index-Of-Indices. Over there, indices.json is
+generated from README.md by scripts/build-indices-json.py — README is the
+source of truth, so a missing index repo is fixed in that repo, not here.
 """
 
 import json
@@ -13,7 +17,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 # Configuration
-SOURCE_REPO = "danielrosehill/Index-Of-Indices"
+SOURCE_REPO = "danielrosehill/Subindices"
 SOURCE_FILE = "indices.json"
 SCRIPT_DIR = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent
@@ -22,7 +26,7 @@ OUTPUT_MD = PROJECT_ROOT / "private" / "indexing-repos.md"
 
 
 def fetch_indices_json() -> dict | None:
-    """Fetch indices.json from the Index-Of-Indices repository."""
+    """Fetch indices.json from the Subindices repository."""
     try:
         # Use gh CLI to fetch file content via GitHub API
         result = subprocess.run(
