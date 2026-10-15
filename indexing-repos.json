@@ -1,6 +1,6 @@
 {
   "source": "https://github.com/danielrosehill/Subindices",
-  "synced_at": "2026-08-10T19:28:27.576388Z",
+  "synced_at": "2026-10-15T07:47:35.396236Z",
   "indices": [
     {
       "title": "AI-Presentation-Builders-Index",
@@ -83,6 +83,11 @@
       "url": "https://github.com/danielrosehill/Claude-Code-Sysadmin-Workspaces-Index"
     },
     {
+      "title": "Claude-Mental-Health-Templates-Index",
+      "description": "Claude Code templates, plugins and workspaces for mental health work a person does on their own material \u2014 issue-bounded workspaces, therapy tracking, appointment preparation, and the portable personal context layer underneath them. Nothing indexed there assesses, scores or diagnoses.",
+      "url": "https://github.com/danielrosehill/Claude-Mental-Health-Templates-Index"
+    },
+    {
       "title": "Claude-Slash-Commands",
       "description": "Index of Claude slash commands.",
       "url": "https://github.com/danielrosehill/Claude-Slash-Commands"
@@ -106,6 +111,11 @@
       "title": "Docs-And-Notes-Index",
       "description": "Index of documentation repositories and notes shared on GitHub, covering AI, context/RAG, backups, development tools, and more.",
       "url": "https://github.com/danielrosehill/Docs-And-Notes-Index"
+    },
+    {
+      "title": "English-Hebrew-Code-Switching-Index",
+      "description": "ASR fine-tunes, audio and text datasets, a Hebrew-in-Latin token classifier, Spaces and companion repos for English speech and text containing Hebrew words \u2014 Israeli and Jewish-diaspora vocabulary that stock ASR mangles.",
+      "url": "https://github.com/danielrosehill/English-Hebrew-Code-Switching-Index"
     },
     {
       "title": "Experiments-And-Evaluations-Index",

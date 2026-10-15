@@ -30,6 +30,8 @@ https://github.com/danielrosehill/Claude-Israel
 
 https://github.com/danielrosehill/Claude-Code-Sysadmin-Workspaces-Index
 
+https://github.com/danielrosehill/Claude-Mental-Health-Templates-Index
+
 https://github.com/danielrosehill/Claude-Slash-Commands
 
 https://github.com/danielrosehill/Context-Projects-Index
@@ -39,6 +41,8 @@ https://github.com/danielrosehill/Data-Projects-Index
 https://github.com/danielrosehill/Deployments-Index
 
 https://github.com/danielrosehill/Docs-And-Notes-Index
+
+https://github.com/danielrosehill/English-Hebrew-Code-Switching-Index
 
 https://github.com/danielrosehill/Experiments-And-Evaluations-Index
 
