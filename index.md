@@ -5387,12 +5387,12 @@ AI agent for JLM Shelter app/project
 
 ---
 
-### [Israel First Aid](https://github.com/danielrosehill/Israel-First-Aid)
+### [Family First Aid Android](https://github.com/danielrosehill/Family-First-Aid-Android)
 
-First aid procedures and decision-making flowchart based on MDA/Hatzalah procedures
+Offline Android first-aid app for families in Israel (MDA / Hatzalah): adult + child protocols, interactive decision flows, spaced review.
 
-**Updated:** March 16, 2026 | **Created:** March 15, 2026  
-**Topics:** `` `` ``  
+**Updated:** October 19, 2026 | **Created:** October 19, 2026  
+**Topics:** `android` `first-aid` `israel` `jetpack-compose` `spaced-repetition`  
 
 ---
 

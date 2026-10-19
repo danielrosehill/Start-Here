@@ -100,8 +100,8 @@ Index of repositories related to Israel
 ## Israel Preparedness Sops [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Israel-Preparedness-SOPs)
 Readiness SOPs for wartime in Israel (my own)
 
-## Israel First Aid [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Israel-First-Aid)
-First aid procedures and decision-making flowchart based on MDA/Hatzalah procedures
+## Family First Aid Android [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Family-First-Aid-Android)
+Offline Android first-aid app for families in Israel (MDA / Hatzalah): adult + child protocols, interactive decision flows, spaced review.
 
 ## Failover Internet Israel Notes [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Failover-Internet-Israel-Notes)
 Notes (Jan 2026) on setting up failover internet in Israel

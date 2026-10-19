@@ -6890,25 +6890,31 @@
     "url": "https://github.com/danielrosehill/Claude-Dolphin-Konsole-Actions"
   },
   {
-    "createdAt": "2026-03-15T19:15:05Z",
-    "description": "First aid procedures and decision-making flowchart based on MDA/Hatzalah procedures",
+    "createdAt": "2026-10-19T21:23:05Z",
+    "description": "Offline Android first-aid app for families in Israel (MDA / Hatzalah): adult + child protocols, interactive decision flows, spaced review.",
     "forkCount": 0,
     "isPrivate": false,
-    "name": "Israel-First-Aid",
+    "name": "Family-First-Aid-Android",
     "repositoryTopics": [
       {
-        "name": "docs"
+        "name": "android"
       },
       {
-        "name": "procedures"
+        "name": "first-aid"
       },
       {
-        "name": "sops"
+        "name": "israel"
+      },
+      {
+        "name": "jetpack-compose"
+      },
+      {
+        "name": "spaced-repetition"
       }
     ],
     "stargazerCount": 0,
-    "updatedAt": "2026-03-16T18:25:00Z",
-    "url": "https://github.com/danielrosehill/Israel-First-Aid"
+    "updatedAt": "2026-10-19T21:23:19Z",
+    "url": "https://github.com/danielrosehill/Family-First-Aid-Android"
   },
   {
     "createdAt": "2026-03-15T16:43:36Z",
