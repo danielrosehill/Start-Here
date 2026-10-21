@@ -1,8 +1,15 @@
-# CLAUDE.md - GitHub Master Index Repository
+# CLAUDE.md - Start Here (GitHub master index)
 
 ## Project Overview
 
-This repository is an automated indexing system for Daniel's GitHub repositories. It pulls public repositories, categorizes them by topic and time, and generates comprehensive index files for easy browsing.
+**Name history.** `Github-Master-Index` → `Index` → **`Start-Here`** (renamed
+2026-10-21). GitHub redirects both old slugs, so old links, raw URLs and clones
+keep working; write new references as `danielrosehill/Start-Here`. The local
+clone is still at `~/repos/indexing-repos/Index`.
+
+This repository is an automated indexing system for Daniel's GitHub repositories,
+and the public front door to them: the README speaks to two readers — people
+browsing, and AI agents sent to find, navigate or download his repos. It pulls public repositories, categorizes them by topic and time, and generates comprehensive index files for easy browsing.
 
 ## Purpose
 
@@ -278,6 +285,33 @@ index.md      sections/       README.md        sections/*/
 - The hierarchy schema is the single source of truth for categories
 - All scripts are idempotent (safe to re-run)
 - Time indexes use CREATION date, main index uses UPDATE date
+
+## README is generated — edit the generator
+
+`README.md` is written by `scripts/build-hierarchical-readme.py`; every sentence
+of it, including the "If you're a person" / "If you're an AI agent" sections, is
+a string in `build_readme()`. Hand edits to `README.md` are lost on the next
+sync. The repo count and index count are filled from `repo-data/latest.json`
+(or `repositories.json`) and `indexing-repos.json`.
+
+## Agent skills and plugin
+
+`skills/` holds three Agent Skills for *consumers* of the index (not for
+maintaining it — those are `.claude/commands/`):
+
+| Skill | Purpose |
+| --- | --- |
+| `find-repo` | Search `repositories.json`; ships `scripts/search.py` (stdlib only, `--local <clone>` to skip the network, `--indexes` to search `indexing-repos.json`) |
+| `find-index` | Find and read the curated topic index for a subject |
+| `clone-repos` | Raw fetch / shallow clone / tarball / filtered bulk clone |
+
+The skills fetch from `raw.githubusercontent.com/danielrosehill/Start-Here/main/`,
+so the JSON file names and shapes are now a public contract: renaming
+`repositories.json` or its fields breaks them.
+
+`.claude-plugin/plugin.json` makes the repo the `start-here` plugin, listed in the
+public `danielrosehill` marketplace (`danielrosehill/Claude-Code-Plugins`). Bump
+`version` there and here together when the skills change.
 
 ## Scope
 

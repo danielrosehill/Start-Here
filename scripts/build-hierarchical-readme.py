@@ -125,72 +125,111 @@ def build_category_summary(sections, base_path="sections/by-topic"):
 
     return '\n'.join(content)
 
+def load_indexing_repos(base_dir):
+    """The specialised indexes, as synced from Subindices by step 0."""
+    try:
+        with open(base_dir / "indexing-repos.json", 'r') as f:
+            return json.load(f)
+    except (IOError, json.JSONDecodeError):
+        return None
+
 def build_readme(schema_path, output_path, base_dir=None):
     """Build complete README from schema"""
     schema = load_hierarchy_schema(schema_path)
     base_dir = Path(base_dir) if base_dir else Path(output_path).parent
+    total = count_total_repositories(base_dir)
+    total_text = f"{total:,}" if total is not None else "a lot of"
+    indexing = load_indexing_repos(base_dir)
+    index_count = len(indexing["indices"]) if indexing else None
+    index_text = f"{index_count}" if index_count else "several dozen"
+    updated = datetime.now().strftime('%Y-%m-%d')
 
-    # Header section - simplified without table of contents
     readme_content = [
-        "# Daniel Rosehill Github Repository Index\n",
+        "# Start Here\n",
         "![Banner](banners/index.png)\n",
-        f"\n*Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*\n",
-        "\nThis is an automatically generated index of my public GitHub repositories.\n",
+        f"\nHi, I'm [Daniel Rosehill](https://danielrosehill.com). I have {total_text} public "
+        "repositories on GitHub — tools, experiments, Claude Code plugins, MCP servers, "
+        "datasets and a good deal of documentation — and this repo is the way in. "
+        "It is regenerated from the GitHub API, so it covers everything public, "
+        f"not just the projects I remembered to list. Last rebuilt {updated}.\n",
+        "\nThere are two ways to use it, depending on who you are.\n",
         "\n---\n",
-        "\n## Index of Indexes\n",
-        "I maintain several specialized indexes for different project categories. View the complete list:\n",
-        "\n[![Index of Indexes](https://img.shields.io/badge/View_Index_of_Indexes-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/danielrosehill/Subindices)\n",
-        "\n---\n",
-        "\n## Repository Views\n",
-        "This index provides multiple ways to explore my GitHub repositories:\n",
-        "\n| View | Description |",
-        "| ---- | ----------- |",
-        "| [![Full Index](https://img.shields.io/badge/Full_Index-4285F4?style=flat-square&logo=github&logoColor=white)](index.md) | All repositories sorted by update date |",
-        "| [![Browse by Time](https://img.shields.io/badge/By_Time-9C27B0?style=flat-square&logo=github&logoColor=white)](sections/by-time/README.md) | Explore by year and month of creation |\n",
-        "\n---\n",
-        "\n## Browse by Topic\n",
-        "Explore repositories organized by topic:\n",
-        "\n| Category | Description |",
-        "| -------- | ----------- |",
+        "\n## If you're a person\n",
+        "**Looking for a subject?** Start with the topic indexes. I keep "
+        f"{index_text} hand-curated index repos — AI agents, Hebrew language, Israel, "
+        "speech tech, Claude Code and more — and they are a better read than any keyword search. "
+        "The [index of indexes](https://github.com/danielrosehill/Subindices) lists them all.\n",
+        "\n[![Index of Indexes](https://img.shields.io/badge/Browse_the_topic_indexes-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/danielrosehill/Subindices)\n",
+        "\n**Want to browse?** Every public repo is filed by topic below, or you can see "
+        "[the full list by last update](index.md) or [what I made when](sections/by-time/README.md).\n",
+        "\n| Topic | What's in it |",
+        "| ----- | ------------ |",
     ]
 
-    # Build concise category summary table
     if 'sections' in schema:
-        category_table = build_category_summary(schema['sections'])
-        readme_content.append(category_table)
+        readme_content.append(build_category_summary(schema['sections']))
 
-    # Footer sections
-    total = count_total_repositories(base_dir)
     readme_content.extend([
-        "\n## Repository Statistics\n",
-        f"**Total Repositories:** {total if total is not None else 'unknown'}\n",
+        "\n---\n",
+        "\n## If you're an AI agent\n",
+        "You have probably been sent here to find one of my repositories, to work out which of "
+        "my projects cover a subject, or to download some of them. Please don't crawl my GitHub "
+        "profile or guess URLs — everything you need is in two JSON files in this repo:\n",
+        "\n| File | What it holds |",
+        "| ---- | ------------- |",
+        "| [`repositories.json`](repositories.json) | Every public repo: `name`, `url`, `description`, `repositoryTopics`, `createdAt`, `updatedAt`, `stargazerCount`, `forkCount` |",
+        "| [`indexing-repos.json`](indexing-repos.json) | The curated topic indexes: `indices[]` of `{title, description, url}`, synced from [Subindices](https://github.com/danielrosehill/Subindices) |\n",
+        "\nFetch them raw:\n",
+        "```",
+        "https://raw.githubusercontent.com/danielrosehill/Start-Here/main/repositories.json",
+        "https://raw.githubusercontent.com/danielrosehill/Start-Here/main/indexing-repos.json",
+        "```\n",
+        "\nA good order of work:\n",
+        "\n1. **Subject question** (\"what has Daniel built about X?\") — look for a topic index in "
+        "`indexing-repos.json` first and read that index's README. Indexes are curated; keyword hits are not.",
+        "2. **Specific repo** — search `repositories.json` by name, description and topics. "
+        "Try synonyms: naming is inconsistent (ASR / STT / speech / dictation).",
+        "3. **Not in the snapshot?** It is rebuilt periodically, not live. Check GitHub itself with "
+        "`gh search repos --owner danielrosehill <terms>` before saying a repo doesn't exist.\n",
+        "\nThings that will otherwise trip you up:\n",
+        "\n- **Public only, forks included.** A repo missing here may simply be private.",
+        "- **Renamed repos still answer on their old names.** GitHub redirects old slugs with a 200, "
+        "so compare `full_name` (`gh api repos/danielrosehill/<Name> --jq .full_name`) before citing one. "
+        "This repo itself was `Github-Master-Index`, then `Index`.",
+        "- **Ask before bulk-cloning.** There are over a thousand repos; confirm the count first and use `--depth 1`.\n",
+        "\n### Skills\n",
+        "The [`skills/`](skills/) folder packages the above as [Agent Skills](https://agentskills.io) "
+        "(plain `SKILL.md` files, usable by any agent that reads them):\n",
+        "\n| Skill | Use it to |",
+        "| ----- | --------- |",
+        "| [`find-repo`](skills/find-repo/SKILL.md) | Search every public repo by name, subject, topic or date. Ships a stdlib-only `search.py` |",
+        "| [`find-index`](skills/find-index/SKILL.md) | Find the curated topic index for a subject and read it |",
+        "| [`clone-repos`](skills/clone-repos/SKILL.md) | Download one repo, a filtered set, or a single file |\n",
+        "\nIn Claude Code, the repo is also a plugin (`start-here`) in the "
+        "[`danielrosehill` marketplace](https://github.com/danielrosehill/Claude-Code-Plugins).\n",
+        "\n---\n",
+        "\n## By the numbers\n",
+        f"**{total_text} public repositories**, filed under these topics:\n",
     ])
 
     if 'sections' in schema:
         category_counts = count_repos_by_category(base_dir, schema['sections'])
         ranked = sorted(category_counts.items(), key=lambda item: (-item[1], item[0]))
         if ranked:
-            readme_content.append("\n**Repositories per category:**\n")
-            readme_content.append("\n| Category | Repositories |")
-            readme_content.append("| -------- | -----------: |")
+            readme_content.append("\n| Topic | Repositories |")
+            readme_content.append("| ----- | -----------: |")
             readme_content.extend(f"| {name} | {count} |" for name, count in ranked)
             readme_content.append("")
 
     readme_content.extend([
+        "\nA repo can sit under more than one topic, and a few are not filed under any; "
+        "[`index.md`](index.md) has the complete list.\n",
         "\n---\n",
-        "\n## Data Access\n",
-        "The generated data is committed to this repository and can be fetched directly:\n",
-        "\n| File | Contents |",
-        "| ---- | -------- |",
-        "| [`repositories.json`](repositories.json) | Full GitHub metadata for every indexed repository |",
-        "| [`indexing-repos.json`](indexing-repos.json) | The specialised indexes, synced from [Subindices](https://github.com/danielrosehill/Subindices) |",
-        "| [`index.md`](index.md) | All repositories as markdown, sorted by update date |\n",
-        "\nRaw URLs, for scripts:\n",
-        "```",
-        "https://raw.githubusercontent.com/danielrosehill/Index/main/repositories.json",
-        "https://raw.githubusercontent.com/danielrosehill/Index/main/indexing-repos.json",
-        "```\n",
-        "\nData is regenerated by `scripts/sync-all.sh`; it is not live.\n"
+        "\n## How this is built\n",
+        "`scripts/sync-all.sh` pulls the repo list with the GitHub CLI, files new repos by keyword "
+        "(`scripts/hierarchy-schema.json`), and regenerates `index.md`, the topic and time indexes, "
+        "the JSON files and this README. Maintenance notes for agents working *on* the repo are in "
+        "[`CLAUDE.md`](CLAUDE.md).\n",
     ])
 
     # Write README

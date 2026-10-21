@@ -1,49 +1,30 @@
-# Daniel Rosehill Github Repository Index
+# Start Here
 
 ![Banner](banners/index.png)
 
 
-*Last updated: 2026-08-10 22:29:19*
+Hi, I'm [Daniel Rosehill](https://danielrosehill.com). I have 1,059 public repositories on GitHub — tools, experiments, Claude Code plugins, MCP servers, datasets and a good deal of documentation — and this repo is the way in. It is regenerated from the GitHub API, so it covers everything public, not just the projects I remembered to list. Last rebuilt 2026-10-21.
 
 
-This is an automatically generated index of my public GitHub repositories.
-
-
----
-
-
-## Index of Indexes
-
-I maintain several specialized indexes for different project categories. View the complete list:
-
-
-[![Index of Indexes](https://img.shields.io/badge/View_Index_of_Indexes-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/danielrosehill/Subindices)
+There are two ways to use it, depending on who you are.
 
 
 ---
 
 
-## Repository Views
+## If you're a person
 
-This index provides multiple ways to explore my GitHub repositories:
-
-
-| View | Description |
-| ---- | ----------- |
-| [![Full Index](https://img.shields.io/badge/Full_Index-4285F4?style=flat-square&logo=github&logoColor=white)](index.md) | All repositories sorted by update date |
-| [![Browse by Time](https://img.shields.io/badge/By_Time-9C27B0?style=flat-square&logo=github&logoColor=white)](sections/by-time/README.md) | Explore by year and month of creation |
+**Looking for a subject?** Start with the topic indexes. I keep 65 hand-curated index repos — AI agents, Hebrew language, Israel, speech tech, Claude Code and more — and they are a better read than any keyword search. The [index of indexes](https://github.com/danielrosehill/Subindices) lists them all.
 
 
----
+[![Index of Indexes](https://img.shields.io/badge/Browse_the_topic_indexes-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/danielrosehill/Subindices)
 
 
-## Browse by Topic
-
-Explore repositories organized by topic:
+**Want to browse?** Every public repo is filed by topic below, or you can see [the full list by last update](index.md) or [what I made when](sections/by-time/README.md).
 
 
-| Category | Description |
-| -------- | ----------- |
+| Topic | What's in it |
+| ----- | ------------ |
 | [AI & Machine Learning](sections/by-topic/ai-ml/index.md) | Repositories related to AI, ML, and LLM technologies |
 | [Data Tools](sections/by-topic/data-tools/index.md) | Data processing, analysis, and visualization tools |
 | [Development Tools](sections/by-topic/development/index.md) | Software development tools and utilities |
@@ -53,16 +34,69 @@ Explore repositories organized by topic:
 | [Regional Specific](sections/by-topic/regional-specific/index.md) | Region or language-specific projects |
 | [Tools & Utilities](sections/by-topic/tools-utilities/index.md) | General purpose tools and utilities |
 
-## Repository Statistics
-
-**Total Repositories:** 1059
+---
 
 
-**Repositories per category:**
+## If you're an AI agent
+
+You have probably been sent here to find one of my repositories, to work out which of my projects cover a subject, or to download some of them. Please don't crawl my GitHub profile or guess URLs — everything you need is in two JSON files in this repo:
 
 
-| Category | Repositories |
-| -------- | -----------: |
+| File | What it holds |
+| ---- | ------------- |
+| [`repositories.json`](repositories.json) | Every public repo: `name`, `url`, `description`, `repositoryTopics`, `createdAt`, `updatedAt`, `stargazerCount`, `forkCount` |
+| [`indexing-repos.json`](indexing-repos.json) | The curated topic indexes: `indices[]` of `{title, description, url}`, synced from [Subindices](https://github.com/danielrosehill/Subindices) |
+
+
+Fetch them raw:
+
+```
+https://raw.githubusercontent.com/danielrosehill/Start-Here/main/repositories.json
+https://raw.githubusercontent.com/danielrosehill/Start-Here/main/indexing-repos.json
+```
+
+
+A good order of work:
+
+
+1. **Subject question** ("what has Daniel built about X?") — look for a topic index in `indexing-repos.json` first and read that index's README. Indexes are curated; keyword hits are not.
+2. **Specific repo** — search `repositories.json` by name, description and topics. Try synonyms: naming is inconsistent (ASR / STT / speech / dictation).
+3. **Not in the snapshot?** It is rebuilt periodically, not live. Check GitHub itself with `gh search repos --owner danielrosehill <terms>` before saying a repo doesn't exist.
+
+
+Things that will otherwise trip you up:
+
+
+- **Public only, forks included.** A repo missing here may simply be private.
+- **Renamed repos still answer on their old names.** GitHub redirects old slugs with a 200, so compare `full_name` (`gh api repos/danielrosehill/<Name> --jq .full_name`) before citing one. This repo itself was `Github-Master-Index`, then `Index`.
+- **Ask before bulk-cloning.** There are over a thousand repos; confirm the count first and use `--depth 1`.
+
+
+### Skills
+
+The [`skills/`](skills/) folder packages the above as [Agent Skills](https://agentskills.io) (plain `SKILL.md` files, usable by any agent that reads them):
+
+
+| Skill | Use it to |
+| ----- | --------- |
+| [`find-repo`](skills/find-repo/SKILL.md) | Search every public repo by name, subject, topic or date. Ships a stdlib-only `search.py` |
+| [`find-index`](skills/find-index/SKILL.md) | Find the curated topic index for a subject and read it |
+| [`clone-repos`](skills/clone-repos/SKILL.md) | Download one repo, a filtered set, or a single file |
+
+
+In Claude Code, the repo is also a plugin (`start-here`) in the [`danielrosehill` marketplace](https://github.com/danielrosehill/Claude-Code-Plugins).
+
+
+---
+
+
+## By the numbers
+
+**1,059 public repositories**, filed under these topics:
+
+
+| Topic | Repositories |
+| ----- | -----------: |
 | AI & Machine Learning | 624 |
 | Development Tools | 164 |
 | Project Types | 142 |
@@ -73,27 +107,12 @@ Explore repositories organized by topic:
 | Infrastructure | 52 |
 
 
+A repo can sit under more than one topic, and a few are not filed under any; [`index.md`](index.md) has the complete list.
+
+
 ---
 
 
-## Data Access
+## How this is built
 
-The generated data is committed to this repository and can be fetched directly:
-
-
-| File | Contents |
-| ---- | -------- |
-| [`repositories.json`](repositories.json) | Full GitHub metadata for every indexed repository |
-| [`indexing-repos.json`](indexing-repos.json) | The specialised indexes, synced from [Subindices](https://github.com/danielrosehill/Subindices) |
-| [`index.md`](index.md) | All repositories as markdown, sorted by update date |
-
-
-Raw URLs, for scripts:
-
-```
-https://raw.githubusercontent.com/danielrosehill/Index/main/repositories.json
-https://raw.githubusercontent.com/danielrosehill/Index/main/indexing-repos.json
-```
-
-
-Data is regenerated by `scripts/sync-all.sh`; it is not live.
+`scripts/sync-all.sh` pulls the repo list with the GitHub CLI, files new repos by keyword (`scripts/hierarchy-schema.json`), and regenerates `index.md`, the topic and time indexes, the JSON files and this README. Maintenance notes for agents working *on* the repo are in [`CLAUDE.md`](CLAUDE.md).

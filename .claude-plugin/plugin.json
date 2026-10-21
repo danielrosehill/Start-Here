@@ -1,0 +1,20 @@
+{
+  "name": "start-here",
+  "displayName": "Start Here (Daniel Rosehill's GitHub)",
+  "version": "0.1.0",
+  "description": "Find, navigate and download Daniel Rosehill's GitHub repositories: search all public repos, find the curated topic index for a subject, and clone one repo or a filtered set.",
+  "author": {
+    "name": "Daniel Rosehill",
+    "email": "public@danielrosehill.com",
+    "url": "https://danielrosehill.com"
+  },
+  "homepage": "https://github.com/danielrosehill/Start-Here",
+  "repository": "https://github.com/danielrosehill/Start-Here",
+  "keywords": [
+    "github",
+    "repositories",
+    "index",
+    "navigation",
+    "clone"
+  ]
+}

@@ -1,4 +1,4 @@
-# Claude Code Configuration for GitHub Master Index
+# Claude Code Configuration for Start Here (GitHub master index)
 
 This directory contains Claude Code configuration files for managing the GitHub repository index system.
 
