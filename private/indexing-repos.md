@@ -48,13 +48,9 @@ https://github.com/danielrosehill/Experiments-And-Evaluations-Index
 
 https://github.com/danielrosehill/Favorite-Code-Libraries
 
-https://github.com/danielrosehill/Feature-Ideas-And-Requests
-
 https://github.com/danielrosehill/Geopolitical-And-OSINT-Index
 
 https://github.com/danielrosehill/Geopol-Forecasts-Index
-
-https://github.com/danielrosehill/Github-Ideas-And-FRs
 
 https://github.com/danielrosehill/GitHub-Management-Tools-Index
 
@@ -121,8 +117,6 @@ https://github.com/danielrosehill/WIP-Index
 https://github.com/danielrosehill/Apps-Index
 
 https://github.com/danielrosehill/Browser-Scripts-Index
-
-https://github.com/danielrosehill/Development-Project-Index
 
 https://github.com/danielrosehill/Google-Fonts-Tools-Index
 

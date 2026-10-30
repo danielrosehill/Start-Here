@@ -1,12 +1,40 @@
 # GitHub Repository Index
 
-**Total Repositories:** 1142  
-**Last Updated:** October 30, 2026 at 17:32:01  
+**Total Repositories:** 1139  
+**Last Updated:** October 30, 2026 at 17:39:31  
 **GitHub User:** [danielrosehill](https://github.com/danielrosehill)
 
 ---
 
 ## Repositories (Newest to Oldest)
+
+### [Docs And Notes Index](https://github.com/danielrosehill/Docs-And-Notes-Index)
+
+An index to my various documentation projects, both on Github and elsewhere
+
+**Updated:** October 30, 2026 | **Created:** November 29, 2024  
+⭐ 2 stars | 🔀 0 forks  
+**Topics:** `` ``  
+
+---
+
+### [Subindices](https://github.com/danielrosehill/Subindices)
+
+Index of various indexing repos I have created
+
+**Updated:** October 30, 2026 | **Created:** November 26, 2025  
+⭐ 3 stars | 🔀 0 forks  
+**Topics:** `` ``  
+
+---
+
+### [Jerusalem Projects Index](https://github.com/danielrosehill/Jerusalem-Projects-Index)
+
+*No description provided*
+
+**Updated:** October 30, 2026 | **Created:** September 01, 2026  
+
+---
 
 ### [Start Here](https://github.com/danielrosehill/Start-Here)
 
@@ -49,16 +77,6 @@ Index of repositories for text transformation, transcription cleanup, and text p
 Index of repositories related to sustainability, GHG emissions, ESG, and environmental impact data
 
 **Updated:** October 30, 2026 | **Created:** March 25, 2026  
-
----
-
-### [Subindices](https://github.com/danielrosehill/Subindices)
-
-Index of various indexing repos I have created
-
-**Updated:** October 30, 2026 | **Created:** November 26, 2025  
-⭐ 3 stars | 🔀 0 forks  
-**Topics:** `` ``  
 
 ---
 
@@ -212,14 +230,6 @@ Index of repositories involving tech + Judaism
 
 ---
 
-### [Jerusalem Projects Index](https://github.com/danielrosehill/Jerusalem-Projects-Index)
-
-*No description provided*
-
-**Updated:** October 30, 2026 | **Created:** September 01, 2026  
-
----
-
 ### [Israel Reference Repos](https://github.com/danielrosehill/Israel-Reference-Repos)
 
 Index of Israel-related reference material: standards, regulations, classification codes, datasets, directories and translated official guidance.
@@ -323,14 +333,6 @@ Index of repositories for GitHub and repository management tools, automation, an
 
 ---
 
-### [Github Ideas And Frs](https://github.com/danielrosehill/Github-Ideas-And-FRs)
-
-Ideas and feature requests contributed to Github projects
-
-**Updated:** October 30, 2026 | **Created:** January 25, 2025  
-
----
-
 ### [Geopolitical And Osint Index](https://github.com/danielrosehill/Geopolitical-And-OSINT-Index)
 
 Index of repositories related to OSINT, geopolitical analysis, and situational awareness
@@ -346,15 +348,6 @@ Index of prediction runs from Geopol Forecaster with accuracy tracking. Snowglob
 
 **Updated:** October 30, 2026 | **Created:** April 10, 2026  
 ⭐ 2 stars | 🔀 0 forks  
-**Topics:** `` `` ``  
-
----
-
-### [Feature Ideas And Requests](https://github.com/danielrosehill/Feature-Ideas-And-Requests)
-
-General feature requests for tech tools that I use and love!
-
-**Updated:** October 30, 2026 | **Created:** December 29, 2024  
 **Topics:** `` `` ``  
 
 ---
@@ -375,26 +368,6 @@ Index of my English-Hebrew code-switching work: ASR fine-tunes, datasets, a Hebr
 
 **Updated:** October 30, 2026 | **Created:** October 15, 2026  
 **Topics:** `` `` `` `` `` `` ``  
-
----
-
-### [Docs And Notes Index](https://github.com/danielrosehill/Docs-And-Notes-Index)
-
-An index to my various documentation projects, both on Github and elsewhere
-
-**Updated:** October 30, 2026 | **Created:** November 29, 2024  
-⭐ 2 stars | 🔀 0 forks  
-**Topics:** `` ``  
-
----
-
-### [Development Project Index](https://github.com/danielrosehill/Development-Project-Index)
-
-Combined indexer for projects on Github and Hugging Face
-
-**Updated:** October 30, 2026 | **Created:** October 22, 2025  
-⭐ 1 stars | 🔀 0 forks  
-**Topics:** `` `` `` ``  
 
 ---
 

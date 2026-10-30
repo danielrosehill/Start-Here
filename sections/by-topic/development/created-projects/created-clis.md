@@ -3,9 +3,6 @@
 ## Linux Mcp Clients [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Linux-MCP-Clients)
 A very small list of MCP clients that are available to Linux users, GUIs + CLIs
 
-## Development Project Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Development-Project-Index)
-Combined indexer for projects on Github and Hugging Face
-
 ## Niimblue [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/niimblue)
 🖨 NIIMBOT custom web client/app. Design and print labels with NIIMBOT printers directly from your PC or mobile web browser! Development is temporarily on hold due to lack of free time, hotfixes only.
 

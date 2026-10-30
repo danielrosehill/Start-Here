@@ -1,11 +1,5 @@
 # Ideas Repositories
 
-## Feature Ideas And Requests [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Feature-Ideas-And-Requests)
-General feature requests for tech tools that I use and love!
-
-## Github Ideas And Frs [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Github-Ideas-And-FRs)
-Ideas and feature requests contributed to Github projects
-
 ## Just Some Artificial Intelligence App Ideas [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Just-Some-AI-App-Ideas)
 Gathering repository for various ideas involving AI that I am or have been working on (experiments, etc!)
 

@@ -1,6 +1,6 @@
 {
   "source": "https://github.com/danielrosehill/Subindices",
-  "synced_at": "2026-10-30T15:31:00.096964Z",
+  "synced_at": "2026-10-30T15:38:28.242420Z",
   "indices": [
     {
       "title": "AI-Presentation-Builders-Index",
@@ -128,11 +128,6 @@
       "url": "https://github.com/danielrosehill/Favorite-Code-Libraries"
     },
     {
-      "title": "Feature-Ideas-And-Requests",
-      "description": "Index of feature ideas and requests.",
-      "url": "https://github.com/danielrosehill/Feature-Ideas-And-Requests"
-    },
-    {
       "title": "Geopolitical-And-OSINT-Index",
       "description": "Index of geopolitical and OSINT projects.",
       "url": "https://github.com/danielrosehill/Geopolitical-And-OSINT-Index"
@@ -141,11 +136,6 @@
       "title": "Geopol-Forecasts-Index",
       "description": "Index of prediction runs from Geopol Forecaster (Snowglobe + LLM Council pipeline) with accuracy tracking.",
       "url": "https://github.com/danielrosehill/Geopol-Forecasts-Index"
-    },
-    {
-      "title": "Github-Ideas-And-FRs",
-      "description": "GitHub ideas and feature requests.",
-      "url": "https://github.com/danielrosehill/Github-Ideas-And-FRs"
     },
     {
       "title": "GitHub-Management-Tools-Index",
@@ -311,11 +301,6 @@
       "title": "Browser-Scripts-Index",
       "description": "Index of browser userscripts written for Tampermonkey, Violentmonkey and Greasemonkey.",
       "url": "https://github.com/danielrosehill/Browser-Scripts-Index"
-    },
-    {
-      "title": "Development-Project-Index",
-      "description": "Combined indexer covering projects published on both GitHub and Hugging Face.",
-      "url": "https://github.com/danielrosehill/Development-Project-Index"
     },
     {
       "title": "Google-Fonts-Tools-Index",

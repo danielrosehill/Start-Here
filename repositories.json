@@ -1,5 +1,52 @@
 [
   {
+    "createdAt": "2024-11-29T17:44:27Z",
+    "description": "An index to my various documentation projects, both on Github and elsewhere",
+    "forkCount": 0,
+    "isPrivate": false,
+    "name": "Docs-And-Notes-Index",
+    "repositoryTopics": [
+      {
+        "name": "docs"
+      },
+      {
+        "name": "indexes"
+      }
+    ],
+    "stargazerCount": 2,
+    "updatedAt": "2026-10-30T15:37:41Z",
+    "url": "https://github.com/danielrosehill/Docs-And-Notes-Index"
+  },
+  {
+    "createdAt": "2025-11-26T09:46:37Z",
+    "description": "Index of various indexing repos I have created",
+    "forkCount": 0,
+    "isPrivate": false,
+    "name": "Subindices",
+    "repositoryTopics": [
+      {
+        "name": "repositories"
+      },
+      {
+        "name": "repository-index"
+      }
+    ],
+    "stargazerCount": 3,
+    "updatedAt": "2026-10-30T15:37:39Z",
+    "url": "https://github.com/danielrosehill/Subindices"
+  },
+  {
+    "createdAt": "2026-09-01T08:15:10Z",
+    "description": "",
+    "forkCount": 0,
+    "isPrivate": false,
+    "name": "Jerusalem-Projects-Index",
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-10-30T15:33:28Z",
+    "url": "https://github.com/danielrosehill/Jerusalem-Projects-Index"
+  },
+  {
     "createdAt": "2025-02-22T18:49:30Z",
     "description": "Start here: a map of Daniel Rosehill's GitHub \u2014 every public repo, the topic indexes, and agent skills for finding and cloning them",
     "forkCount": 2,
@@ -17,7 +64,7 @@
       }
     ],
     "stargazerCount": 18,
-    "updatedAt": "2026-10-30T15:28:38Z",
+    "updatedAt": "2026-10-30T15:32:19Z",
     "url": "https://github.com/danielrosehill/Start-Here"
   },
   {
@@ -73,24 +120,6 @@
     "stargazerCount": 0,
     "updatedAt": "2026-10-30T15:28:18Z",
     "url": "https://github.com/danielrosehill/Sustainability-And-Impact-Data-Index"
-  },
-  {
-    "createdAt": "2025-11-26T09:46:37Z",
-    "description": "Index of various indexing repos I have created",
-    "forkCount": 0,
-    "isPrivate": false,
-    "name": "Subindices",
-    "repositoryTopics": [
-      {
-        "name": "repositories"
-      },
-      {
-        "name": "repository-index"
-      }
-    ],
-    "stargazerCount": 3,
-    "updatedAt": "2026-10-30T15:28:16Z",
-    "url": "https://github.com/danielrosehill/Subindices"
   },
   {
     "createdAt": "2025-11-26T09:23:55Z",
@@ -344,17 +373,6 @@
     "url": "https://github.com/danielrosehill/Jewish-Related-Index"
   },
   {
-    "createdAt": "2026-09-01T08:15:10Z",
-    "description": "",
-    "forkCount": 0,
-    "isPrivate": false,
-    "name": "Jerusalem-Projects-Index",
-    "repositoryTopics": null,
-    "stargazerCount": 0,
-    "updatedAt": "2026-10-30T15:27:40Z",
-    "url": "https://github.com/danielrosehill/Jerusalem-Projects-Index"
-  },
-  {
     "createdAt": "2026-07-25T18:18:21Z",
     "description": "Index of Israel-related reference material: standards, regulations, classification codes, datasets, directories and translated official guidance.",
     "forkCount": 0,
@@ -572,17 +590,6 @@
     "url": "https://github.com/danielrosehill/GitHub-Management-Tools-Index"
   },
   {
-    "createdAt": "2025-01-25T18:17:17Z",
-    "description": "Ideas and feature requests contributed to Github projects",
-    "forkCount": 0,
-    "isPrivate": false,
-    "name": "Github-Ideas-And-FRs",
-    "repositoryTopics": null,
-    "stargazerCount": 0,
-    "updatedAt": "2026-10-30T15:27:15Z",
-    "url": "https://github.com/danielrosehill/Github-Ideas-And-FRs"
-  },
-  {
     "createdAt": "2026-03-25T12:06:46Z",
     "description": "Index of repositories related to OSINT, geopolitical analysis, and situational awareness",
     "forkCount": 0,
@@ -613,27 +620,6 @@
     "stargazerCount": 2,
     "updatedAt": "2026-10-30T15:27:11Z",
     "url": "https://github.com/danielrosehill/Geopol-Forecasts-Index"
-  },
-  {
-    "createdAt": "2024-12-29T14:49:30Z",
-    "description": "General feature requests for tech tools that I use and love!",
-    "forkCount": 0,
-    "isPrivate": false,
-    "name": "Feature-Ideas-And-Requests",
-    "repositoryTopics": [
-      {
-        "name": "feature-requests"
-      },
-      {
-        "name": "frs"
-      },
-      {
-        "name": "indexes"
-      }
-    ],
-    "stargazerCount": 0,
-    "updatedAt": "2026-10-30T15:27:09Z",
-    "url": "https://github.com/danielrosehill/Feature-Ideas-And-Requests"
   },
   {
     "createdAt": "2025-10-27T12:56:16Z",
@@ -688,48 +674,6 @@
     "stargazerCount": 0,
     "updatedAt": "2026-10-30T15:27:05Z",
     "url": "https://github.com/danielrosehill/English-Hebrew-Code-Switching-Index"
-  },
-  {
-    "createdAt": "2024-11-29T17:44:27Z",
-    "description": "An index to my various documentation projects, both on Github and elsewhere",
-    "forkCount": 0,
-    "isPrivate": false,
-    "name": "Docs-And-Notes-Index",
-    "repositoryTopics": [
-      {
-        "name": "docs"
-      },
-      {
-        "name": "indexes"
-      }
-    ],
-    "stargazerCount": 2,
-    "updatedAt": "2026-10-30T15:27:03Z",
-    "url": "https://github.com/danielrosehill/Docs-And-Notes-Index"
-  },
-  {
-    "createdAt": "2025-10-22T16:49:41Z",
-    "description": "Combined indexer for projects on Github and Hugging Face",
-    "forkCount": 0,
-    "isPrivate": false,
-    "name": "Development-Project-Index",
-    "repositoryTopics": [
-      {
-        "name": "github"
-      },
-      {
-        "name": "hugging-face"
-      },
-      {
-        "name": "indexing"
-      },
-      {
-        "name": "index-utilities"
-      }
-    ],
-    "stargazerCount": 1,
-    "updatedAt": "2026-10-30T15:27:01Z",
-    "url": "https://github.com/danielrosehill/Development-Project-Index"
   },
   {
     "createdAt": "2026-04-03T14:36:12Z",

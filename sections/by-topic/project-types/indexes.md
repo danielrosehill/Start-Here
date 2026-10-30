@@ -20,9 +20,6 @@ Indexing repo of backup related projects and scripts
 ## Data Projects Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Data-Projects-Index)
 Data apps and datasets deployed to Streamlit Community Cloud, Hugging Face, and elsewhere
 
-## Development Project Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Development-Project-Index)
-Combined indexer for projects on Github and Hugging Face
-
 ## Experiments And Evaluations Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Experiments-And-Evaluations-Index)
 Index of repositories concerning AI evaluations and experiments
 
