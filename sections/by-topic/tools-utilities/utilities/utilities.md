@@ -32,3 +32,6 @@ Curated index of AI audio-editing tools for agents — skills, CLIs, MCPs, podca
 
 ## Ai Browser Tools [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/AI-Browser-Tools)
 Index of AI browser tools — automation frameworks, AI-native browsers, MCP servers, extensions, and commercial products
+
+## Procurement Tools Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/procurement-tools-plugin)
+Product research and procurement skills for Claude Code, with a particular focus on technical specification conformance — spec-as-code, datasheet retrieval, cross-region part-number equivalence, conformance matrices, BOMs and RFQ packages. Marketplace-agnostic.

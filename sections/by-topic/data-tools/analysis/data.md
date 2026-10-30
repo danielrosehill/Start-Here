@@ -96,7 +96,11 @@ Curated index of scraping and data extraction tools, with a focus on packaging w
 ## Claude Data Analyst Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Data-Analyst-plugin)
 First pass data analysis skills for Claude Code
 
-## Flood Data Analyst Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Flood-Data-Analyst-plugin)
-
 ## Ai Data Utilities [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/AI-Data-Utilities)
 Curated list of open-source AI tooling for data work — agents, chat-with-data, visualisation, cleaning, and resource lists.
+
+## Pseudo Personalised Spam Classifier [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Pseudo-Personalised-Spam-Classifier)
+Small classifier separating genuine stranger email from AI-era pseudo-personalised mass outreach that evades spam filters. Public, pseudonymised dataset.
+
+## Asr Dataset Blending [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/ASR-Dataset-Blending)
+Research notes on blending datasets for ASR fine-tunes: mixing tools, replay ratios, forgetting prevention, general corpora

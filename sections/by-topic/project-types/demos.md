@@ -24,3 +24,6 @@ A conceptual voice to prompt pipeline that attempts to separate instructions fro
 
 ## Pcb Labeller Demo [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/PCB-Labeller-Demo)
 
+
+## Us Partisan Framing Eval [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/US-Partisan-Framing-Eval)
+Neutral questions on divisive US issues: does the answer adopt the Democratic or Republican framing, hawkish or dovish?

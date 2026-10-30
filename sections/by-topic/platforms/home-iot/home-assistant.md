@@ -78,3 +78,9 @@ Geopol Forecaster run: probability of forced regime change in Iran (+1 week / +1
 
 ## Ha White Noise Component [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/HA-White-Noise-Component)
 
+
+## Ha Ir Ac Comfort Thermostat [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/ha-ir-ac-comfort-thermostat)
+Home Assistant pattern: single-room comfort thermostat for an IR-only AC (assumed state, fan + setpoint loop)
+
+## Ha Circadian Red Shift [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/HA-Circadian-Red-Shift)
+Home Assistant blueprint: three-phase circadian lighting — full white by day, warmest Kelvin after sunset, then true RGB red until dawn. For lights that support both colour temperature and colour.

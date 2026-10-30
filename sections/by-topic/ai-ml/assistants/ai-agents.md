@@ -249,9 +249,6 @@ AI agent for JLM Shelter app/project
 ## Agentic Ai Architecture Visualisation [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Agentic-AI-Architecture-Visualisation)
 Framework-agnostic data model and visualizations mapping the moving pieces of agentic AI systems
 
-## Agent Junction [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Agent-Junction)
-Ephemeral agent-to-agent communication relay for agentic CLIs (localhost or intra-LAN). MCP.
-
 ## Ai Resume [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/AI-Resume)
 Notes / test for creating a version of a resume/CV specifically intended for AI agents
 
@@ -319,3 +316,15 @@ Pattern for creating a modular spec-definition format for AI coding agents from 
 
 ## Ai Harnesses [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/AI-Harnesses)
 Point-in-time snapshot of projects describing themselves as AI agent harnesses (April 2026)
+
+## Kaizen Please [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Kaizen-Please)
+Kaizen for any project, not just code: small steady steps, task breakdown, reviews, a Kaizen assessment essay, clean uninstall. Agent skills.
+
+## Agent Habits [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Agent-Habits)
+Standing instructions for AI agents: habits (rules) and SOPs (procedures), one markdown file each, with a library of example habits to adopt and a small generated system-prompt block.
+
+## Vendor Liaison [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Vendor-Liaison)
+Report bugs, request features and disclose security issues to software vendors: structured channel data per vendor, routing rules, and your own preferred channels and contacts. Agent skills.
+
+## Agent Ivr [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Agent-IVR)
+Idea repo: what if a phone menu had a branch for machines? "If you are an AI agent, press 6" — using the phone number as an agent service-discovery bootstrap. Twilio mechanics, A2A integration, prior art.

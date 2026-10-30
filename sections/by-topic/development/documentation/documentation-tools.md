@@ -35,3 +35,6 @@ Claude Code plugin: technical documentation workflow — README authoring, refer
 
 ## Our Smart Home [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Our-Smart-Home)
 Aggregated docs system for smart homes
+
+## Rclone Manager [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Rclone-Manager)
+Agent skills for routine rclone admin: install, remotes, mounts, config backup and migration, docs lookup

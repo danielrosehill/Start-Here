@@ -1,8 +1,5 @@
 # Utilities Repositories
 
-## Github Notation [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Github-Notation)
-A shorthand system I use to organise repositories
-
 ## Gmail Search Strings [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Gmail-Search-Strings)
 Just a few search strings for finding stuff in overcrowded Gmail inboxes!
 
@@ -17,9 +14,6 @@ Personal bash alias library, public
 
 ## My Calculators [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/My-Calculators)
 Unit exchange calculators for calculations I commonly require
-
-## Openai Github Repo Index Creator [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/OpenAI-Github-Repo-Index-Creator)
-Simple script for creating a Github index using the OpenAI API
 
 ## Postgres Utilities [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Postgres-Utilities)
 Little scripts and hacks for working with my favorite database!

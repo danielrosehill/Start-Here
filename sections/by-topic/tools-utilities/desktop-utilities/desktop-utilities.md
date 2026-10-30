@@ -35,3 +35,6 @@ KDE Plasma desktop controller for Electra air conditioners
 
 ## Desktop Ops Workspace Template [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/desktop-ops-workspace-template)
 Per-machine SQLite ops log workspace paired with linux-desktop-plugin. Local-first memory for Claude-driven Linux desktop management.
+
+## Ubuntu Admin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Ubuntu-Admin)
+Agent skills for administering Ubuntu machines, desktop or server, local or over SSH: health, services, logs, packages, storage, networking, hardware, Docker, KDE.

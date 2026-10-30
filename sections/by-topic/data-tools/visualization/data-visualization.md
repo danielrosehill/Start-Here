@@ -14,3 +14,6 @@ Configuration for an LLM assistant that performs analysis on sustainability data
 
 ## Value Factors Data Vis [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Value-Factors-Data-Vis)
 Streamlit app containing visualisations of the Global Value Factors Database (GVFD) released by the IFVI in 2024
+
+## Comparison Artifacts [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Comparison-Artifacts)
+Comparison tables, weighted scoring and quadrant charts for software evaluations, as agent skills (Markdown, Typst, SVG)

@@ -3,9 +3,6 @@
 ## Better Safe [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Better-Safe)
 CLI for taking on-demand Snapper snapshots (BTRFS)
 
-## Remote Github Repo Pruner [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Remote-Github-Repo-Pruner)
-CLI for pruning repos on the remote (ie, Github)
-
 ## To Clone Or Not To Clone [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/To-Clone-Or-Not-To-Clone)
 Interactive CLI for cloning your Github repos
 

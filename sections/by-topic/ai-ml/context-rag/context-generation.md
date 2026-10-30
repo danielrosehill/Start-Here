@@ -24,3 +24,6 @@ Index of AI dev workspace primitives — root-level UPPERCASE.md context files f
 
 ## Ai Decision Eval Projects [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/AI-Decision-Eval-Projects)
 Resource list of AI projects focused on exploring AI as a tool for enhanced decision-making in personal and business contexts
+
+## Agent Context Harness [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Agent-Context-Harness)
+Per-turn router that sends each agent message to the current task, an existing parallel worker, or a new parallel session - context hygiene without compaction. Idea + prior-art scan.

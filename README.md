@@ -3,7 +3,7 @@
 ![Banner](banners/index.png)
 
 
-Hi, I'm [Daniel Rosehill](https://danielrosehill.com). I have 1,059 public repositories on GitHub — tools, experiments, Claude Code plugins, MCP servers, datasets and a good deal of documentation — and this repo is the way in. It is regenerated from the GitHub API, so it covers everything public, not just the projects I remembered to list. Last rebuilt 2026-10-30.
+Hi, I'm [Daniel Rosehill](https://danielrosehill.com). I have 1,142 public repositories on GitHub — tools, experiments, Claude Code plugins, MCP servers, datasets and a good deal of documentation — and this repo is the way in. It is regenerated from the GitHub API, so it covers everything public, not just the projects I remembered to list. Last rebuilt 2026-10-30.
 
 
 There are two ways to use it, depending on who you are.
@@ -92,18 +92,18 @@ In Claude Code, the repo is also a plugin (`start-here`) in the [`danielrosehill
 
 ## By the numbers
 
-**1,059 public repositories**, filed under these topics:
+**1,142 public repositories**, filed under these topics:
 
 
 | Topic | Repositories |
 | ----- | -----------: |
-| AI & Machine Learning | 624 |
-| Development Tools | 164 |
-| Project Types | 142 |
-| Data Tools | 86 |
-| Regional Specific | 85 |
-| Tools & Utilities | 71 |
-| Platforms & Services | 58 |
+| AI & Machine Learning | 673 |
+| Development Tools | 170 |
+| Project Types | 146 |
+| Regional Specific | 91 |
+| Data Tools | 90 |
+| Tools & Utilities | 72 |
+| Platforms & Services | 65 |
 | Infrastructure | 52 |
 
 

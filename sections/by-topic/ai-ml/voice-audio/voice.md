@@ -24,9 +24,6 @@ AI Studio starter - upload voice sample, get EQ preset
 ## Voice Analyzer [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voice-Analyzer)
 Analyses voice data
 
-## Deepgram Voice Keyboard Ubuntu [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Deepgram-Voice-Keyboard-Ubuntu)
-WIP to try to create a good STT utility with cloud STT APIs
-
 ## Linux Voice Typing App Notes [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Linux-Voice-Typing-App-Notes)
 Planning notes for a tool I've been working on for a while!
 
@@ -36,22 +33,11 @@ GUI to facilitate capturing voice data for TTS / voice clone training with LLM s
 ## Voicepad [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voicepad)
 Planning notes for a macropad for STT users
 
-## Voice Input Models [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/voice-input-models)
-
-## Voice Note Recorder Ubuntu [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voice-Note-Recorder-Ubuntu)
-GUI for recording voice notes
-
 ## Voice Prompt Cleanup Script [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voice-Prompt-Cleanup-Script)
 Cleanup audio processing script
 
 ## Voice Training Script Generator [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voice-Training-Script-Generator)
 Helper utils for generating training data for voice cloning with LLMs
-
-## Wayland Voice Typer [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Wayland-Voice-Typer)
-Simple GUI around whisper.cpp for voice-to-text on Linux
-
-## Hyprvoice [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/hyprvoice)
-Voice‑powered typing for Wayland/Hyprland desktops
 
 ## Voice Tech Subreddits [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voice-Tech-Subreddits)
 Small collection of subreddits where ASR, STT, voice tech is discussed
@@ -61,9 +47,6 @@ Self-host the powerful Chatterbox TTS model. This server offers a user-friendly 
 
 ## Voice Cleanup Prompt Experiment [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voice-Cleanup-Prompt-Experiment)
 Testing various permutations in system prompting for raw audio transcript cleanup and comparing multimodal ASR vs. the STT + LLM approach
-
-## Voicetype [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/VoiceType)
-A fork of Deeepgram's Linux starter. CLI -> GUI + hotkey support, API key editing, cost tracking. WIP
 
 ## Voice Cloning Difference Test [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voice-Cloning-Difference-Test)
 Quick test to see how much of a difference sample intonation makes in single shot voice cloning!
@@ -97,3 +80,21 @@ Voice agent implemenetation for readiness checklists
 
 ## Voicebox [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/VoiceBox)
 Idea for a spech tech solution  - specced out by Claude
+
+## Podcast Light Edit Chain [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Podcast-Light-Edit-Chain)
+One-command light edit for spoken-word recordings: cut ums with the Uhm frame classifier (no ASR), shorten long pauses, voice-fitted EQ, -16 LUFS. With a measured demo.
+
+## Asr Mic Tuner [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/ASR-Mic-Tuner)
+ASR Mic Tuner: tune your microphone for speech recognition on KDE Plasma — true analog gain, level, clipping, noise and voice analysis, tray
+
+## Voicenotes Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voicenotes-Plugin)
+Voicenotes.com for Claude Code: search notes, read transcripts, list by date or tag, create text notes (official MCP)
+
+## Me And My Voice Clone [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Me-And-My-Voice-Clone)
+A ten-minute conversation between me and a TTS clone of my own voice (Meorav v2.0, Qwen3-TTS fine-tune): original video, audio, per-line clips, alignment data and splice pipeline
+
+## Voice Note Task Classifier [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Voice-Note-Task-Classifier)
+Small multi-label classifier that routes voice-note transcripts to task-specific subagents (email, calendar, to-do, spec...). Public successor of v0.1.0.
+
+## Android Voice Keyboard Roundup [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Android-Voice-Keyboard-Roundup)
+Evaluation matrix for open-source Android voice keyboards: voice IME vs full keyboard vs floating button, local vs cloud vs automatic fallback, and which ASR model

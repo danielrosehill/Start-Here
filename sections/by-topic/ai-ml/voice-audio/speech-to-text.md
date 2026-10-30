@@ -61,9 +61,6 @@ No description provided
 ## Local Asr Stt Benchmark [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Local-ASR-STT-Benchmark)
 Quick evaluation to find the best STT model in Speech Note (Ubuntu) for my HW
 
-## Speech Notes With Text Fixes [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/speech-notes-with-text-fixes)
-Speech Note Linux app. Note taking, reading and translating with offline Speech to Text, Text to Speech and Machine translation.
-
 ## Crying Baby Audio Scrub [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Crying-Baby-Audio-Scrub)
 Experiment to see if crying baby audio can be scrubbed with audio inpainting (use-case: WIP parenting and content creation!)
 
@@ -84,8 +81,6 @@ Validated fine-tuning script for fine-tuning Whisper on Modal GPU with a preform
 
 ## Asr And Stt Ai Notebook [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/ASR-And-STT-AI-Notebook)
 Propmts and outputs (and some notes) on STT + ASR + fine-tuning. LLM: Claude
-
-## Whisper Acft [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/whisper-acft)
 
 
 ## Kokoro Fastapi [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Kokoro-FastAPI)
@@ -111,9 +106,6 @@ A compilation of resources (model profiles, benchmarks, docs) for multimodal AI 
 
 ## Cloud Stt Price Points 1225 [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Cloud-STT-Price-Points-1225)
 Point in time pricing snapshots for ASR (07-12-2025)
-
-## Local Multimodal Transcriber [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Local-Multimodal-Transcriber)
-Local transcription app with audio multimodal design
 
 ## Audio Understanding Test Prompts [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Audio-Understanding-Test-Prompts)
 A few test prompts to be used when evaluating audio multimodal models
@@ -157,3 +149,12 @@ A catalog of AI models for the Hebrew language — LLMs, STT, TTS, NLP, embeddin
 
 ## Handy Wayland Autostart Fix [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/handy-wayland-autostart-fix)
 Documenting and fixing Handy speech-to-text app failing on KDE Plasma Wayland due to autostart race condition
+
+## Asr Mistranscription Predictor [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/ASR-Mistranscription-Predictor)
+Plan: predict which words an ASR model will mistranscribe for one speaker, by extrapolating from a list of confirmed fixes mined from their dictation history, so the predictions can go into fine-tuning data
+
+## Proofed [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Proofed)
+Proofed: integrated ASR + post-processing model, from speech straight to clean, proofed text.
+
+## Asr Regex Post Processing [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/ASR-Regex-Post-Processing)
+Regex snippets for cleaning up speech-to-text output — Android (ICU) first, with Linux engine differences flagged and machine-checked.

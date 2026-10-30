@@ -54,3 +54,6 @@ A curated list of red alert (צבע אדום) civilian notification projects for
 
 ## Awesome Modal [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/awesome-modal)
 A curated list of amazingly awesome Modal applications, demos, and shiny things. Inspired by awesome-php.
+
+## Awesome Code Mixing [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/awesome-code-mixing)
+A curated list of resources dedicated to Code-mixed Natural Language Processing (NLP).

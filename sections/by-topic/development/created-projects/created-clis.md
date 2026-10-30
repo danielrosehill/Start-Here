@@ -32,3 +32,6 @@ Links to projects about Operation Epic Fury / Israel-US-Iran War 2026
 
 ## Networking Projects Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Networking-Projects-Index)
 Index of repositories for networking, infrastructure, homelab, and server management
+
+## Jerusalem Projects Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Jerusalem-Projects-Index)
+

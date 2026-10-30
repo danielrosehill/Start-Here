@@ -194,3 +194,18 @@ Unified notification and OSINT intelligence module for Israel Red Alert monitori
 
 ## Israel Alert Map [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Israel-Alert-Map)
 Real-time Israel alert map - Pikud HaOref geo-visualization Android app
+
+## Israel Election 2026 Vote Decision [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Israel-Election-2026-Vote-Decision)
+Working out who to vote for in the 27 October 2026 Knesset election, starting from a voice note of my views
+
+## Israel Post Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Israel-Post-Plugin)
+Israel Post (דואר ישראל) agent skills: appointments, branch search, parcel tracking
+
+## Israeli Elections 2026 [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Israeli-Elections-2026)
+Modelling the 2026 Israeli Knesset election
+
+## Israel Palestine Framing Eval [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Israel-Palestine-Framing-Eval)
+Eval: does a model lean pro-Israel or pro-Palestinian on mirrored framings of contested events? Component of Dan-Eval (placeholder)
+
+## Israel Research Skills [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Israel-Research-Skills)
+Israel-specific research skills for Claude and ChatGPT: Kol Zchut rights, Home Front Command guidelines, NSC travel warnings, medicines, offices, phone numbers, opening hours, salaries and shopping. Instruction-only.

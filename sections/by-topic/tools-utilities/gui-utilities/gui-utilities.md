@@ -15,3 +15,6 @@ Makeshift DIY guide for getting internet into protected shelters in Israel
 
 ## One Plus Nord 3 Root Guide [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/One-Plus-Nord-3-Root-Guide)
 Guide to rooting OnePlus Nord 3 5G (CPH2493) on OxygenOS 16 with Magisk — Dimensity 9000 (MT6983)
+
+## Claude Marketplace Guide Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Marketplace-Guide-Plugin)
+Start here for the danielrosehill Claude Code marketplace: browse plugins by theme, get recommendations, see what's new — read live from the manifest

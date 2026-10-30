@@ -21,3 +21,6 @@ Resource list for APIs and MCP servers offering English↔Hebrew translation
 
 ## Hebrew Calendar Resources [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Hebrew-Calendar-Resources)
 Collection of open-source tools, libraries, APIs, and integrations for working with the Hebrew calendar
+
+## Hebrew Resources [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Hebrew-Resources)
+A comprehensive list of Hebrew NLP resources.

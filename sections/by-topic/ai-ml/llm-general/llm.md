@@ -128,3 +128,12 @@ Index of prediction runs from Geopol Forecaster with accuracy tracking. Snowglob
 
 ## Llm Rfp [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/LLM-RFP)
 
+
+## Llm Spoken Steganography [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/LLM-Spoken-Steganography)
+LLM hides an encrypted message in the sentence openers of a mundane podcast that survives TTS -> air -> STT. Grew out of My Weird Prompts #6141.
+
+## Propaganda Bait Eval [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Propaganda-Bait-Eval)
+Baits LLMs with loaded political premises (CCP, MAGA, pro-Israel, pro-Palestine, Kremlin, US-left) and scores how readily they regurgitate the framing
+
+## The Pc Bench [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/The-PC-Bench)
+Does the model scold you? A benchmark for moralising, lecturing and unsolicited PC framing in LLM responses (PC = political correctness, not personal computers)

@@ -54,3 +54,6 @@ Exploring various vision AI workflows for whiteboard processing
 
 ## Electrasmart Custom Component [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/electrasmart-custom-component)
 Home automation integration with Electra Smart type air conditioners
+
+## Agentic Dev Workflows [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Agentic-Dev-Workflows)
+Cross-cutting workflows for developing software with AI agents, any platform: UI friction options-then-build, release patterns (sprint, release-to-test) pinned to CLAUDE.md

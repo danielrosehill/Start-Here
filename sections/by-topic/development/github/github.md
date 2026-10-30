@@ -28,9 +28,6 @@ Index of repositories for GitHub and repository management tools, automation, an
 ## Stars Viewer [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Stars-Viewer)
 Export of GitHub stars organized by type
 
-## Pinecone Github Repos Sync [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Pinecone-GitHub-Repos-Sync)
-Daily GitHub Action: mirrors non-archived danielrosehill GitHub repos into Pinecone (daniel-personal/github-repos) with stale-record deletion.
-
 ## Claude Github Explorer Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Github-Explorer-Plugin)
 
 
@@ -45,3 +42,9 @@ Stack/tooling research workspace for a bulk Github repo manager for more efficie
 
 ## Github Index Maintainer [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Github-Index-Maintainer)
 Maintance agent for indexing repos
+
+## Start Here [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Start-Here)
+Start here: a map of Daniel Rosehill's GitHub — every public repo, the topic indexes, and agent skills for finding and cloning them
+
+## Hugging Face Releases Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Hugging-Face-Releases-Index)
+Thematic index of my Hugging Face releases — models, datasets, Spaces, blogs — linked to their GitHub repos

@@ -15,3 +15,12 @@ Speak. Reshape. Send. — A serious voice-to-text Android app powered by OpenRou
 
 ## Family Page [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Family-Page)
 Simple Android APK paging button
+
+## Android Selection Case Converter [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Android-Selection-Case-Converter)
+Android text-selection menu: UPPERCASE or ChAoS cAsE, on device, no permissions
+
+## F Droid Public Repo [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/F-Droid-Public-Repo)
+Public F-Droid repo for Daniel Rosehill's Android apps, served from Cloudflare R2 at apps.bydanielrosehill.com
+
+## Android Thin Fork Autosync [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Android-Thin-Fork-Autosync)
+Template for a thin downstream fork of an active Android app: narrow hooks, weekly auto-merge of upstream releases, seam checks, signed release APKs via GitHub Actions

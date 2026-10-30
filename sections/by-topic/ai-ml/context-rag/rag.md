@@ -26,3 +26,12 @@ Field manual for a home storage & moving system built on industrial logistics st
 
 ## Storage Box 3D Models [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/storage-box-3d-models)
 
+
+## Asr Post Processor Model [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/ASR-Post-Processor-Model)
+Light-touch text-in/text-out model that cleans raw Parakeet v2 dictation: disfluencies, contractions, paragraphs. Planning stage.
+
+## Asr Paragraph Breaks [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/ASR-Paragraph-Breaks)
+Hand-annotated paragraph breaks for flat ASR text, and a small text-in/text-out model trained on them
+
+## Conspiracy Endorsement Eval [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Conspiracy-Endorsement-Eval)
+Does a model push back on, endorse, or encourage conspiracy theories a user brings to it? Safety eval.

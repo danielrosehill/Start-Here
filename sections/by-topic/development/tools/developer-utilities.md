@@ -39,9 +39,6 @@ Reference - frontend URLs for Open Web UI
 ## Red Alert Mqtt Desktop Notifier Public [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Red-Alert-MQTT-Desktop-Notifier-Public)
 MQTT notification agent for Linux desktop to receive Red Alert MQTT topic pushes from HA
 
-## Remote Github Repo Pruner [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Remote-Github-Repo-Pruner)
-CLI for pruning repos on the remote (ie, Github)
-
 ## System Prompt Library [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/System-Prompt-Library)
 New repo for system prompt library (for agents & assistants) updated for automation integration
 

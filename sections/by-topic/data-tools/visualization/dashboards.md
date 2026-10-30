@@ -32,3 +32,6 @@ Real-time global intelligence dashboard — AI-powered news aggregation, geopoli
 
 ## Monitoring The Situation [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Monitoring-The-Situation)
 Curated index of open-source projects for situational awareness, geopolitical monitoring, and information-fusion dashboards (news grids, video walls, ops-center COPs).
+
+## Tech Graphics Benchmark [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Tech-Graphics-Benchmark)
+Lightweight periodic check: can image models make colourful, stylised tech diagrams with exact text and correct arrows? Text-to-image and image-to-image.

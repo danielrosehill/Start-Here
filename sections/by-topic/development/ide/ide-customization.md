@@ -49,3 +49,12 @@ Bugs, regressions, and feature ideas for the Handy offline STT app — observed 
 
 ## Israel Home Front Ideas [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Israel-Home-Front-Ideas)
 A few open source idea for the Pikud HaOref system collected over time
+
+## Sensory Notebook [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Sensory-Notebook)
+An open notebook on sensory sensitivity — research Q&A with sourced answers, alongside my own sensory profile, story and the recommendations that actually worked. Not medical advice.
+
+## Dan Eval [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Dan-Eval)
+Composite of my pet-peeve evaluations for models I'm considering adopting: Israel/Palestine framing, Chinese censorship, American centrism (placeholder)
+
+## Bifl Recs [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/BIFL-Recs)
+Directory of durable-goods recommendations mined from r/BuyItForLife and adjacent sources, with evidence attached to every record

@@ -61,3 +61,18 @@ Collection/resource list of AI projects focused on synthesising perpsectives for
 ## Brainstorm Solutions Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/brainstorm-solutions-plugin)
 
 ## Claude Meta Mcp Slash [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Meta-MCP-Slash)
+
+## Bounded Brainstorming Finetune [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Bounded-Brainstorming-Finetune)
+Fine-tune spec for bounded brainstorming: given a task, priors (existing items) and a format, generate N novel items that match the format and don't repeat the priors
+
+## Proximate Pseudonymizer [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Proximate-Pseudonymizer)
+Small text-in/text-out model that swaps identifying details for proximate, consistent substitutes
+
+## Hebrew Small Models Planning [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Hebrew-Small-Models-Planning)
+
+
+## Ai Delegate Vote Model [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/AI-Delegate-Vote-Model)
+A constrained decision model that votes for/against/abstain on parliamentary motions, with a reason, on behalf of a declared constituency
+
+## Jerusalem Ai [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Jerusalem-AI)
+Index of AI in Jerusalem, Israel — research labs, companies, communities, events, people, municipal initiatives, and AI projects and datasets about the city

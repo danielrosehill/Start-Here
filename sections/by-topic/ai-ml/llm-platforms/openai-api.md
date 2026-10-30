@@ -10,9 +10,6 @@ N8N agent workflow for an agent that recommends fixes to system prompts based on
 ## Audiopenai Edit Prompts [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Audiopenai-Edit-Prompts)
 Text transformation prompts library for Audiopen.ai (my customs)
 
-## OpenAI Github Repo Index Creator [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/OpenAI-Github-Repo-Index-Creator)
-Simple script for creating a Github index using the OpenAI API
-
 ## OpenAI Image Renamer [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/OpenAI-Image-Renamer)
 Simple Python script for batch file renaming operations with OpenAI API
 

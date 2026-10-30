@@ -22,9 +22,6 @@ Updated repo of text transformation prompts (raw STT transcripts -> *). New repo
 Some system prompts related to text modification and optimisation for some WIPs
 
 
-## Context Toolkit Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/context-toolkit-plugin)
-A comprehensive toolkit implementing the CONTEXT.md workflow system for managing human-authored context and agent-ready briefings.
-
 ## Deepgram Text Input [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Deepgram-Text-Input)
 Analysis of Deepgram text input
 

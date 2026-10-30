@@ -49,5 +49,12 @@ Remap a generic USB HID button (vendor 5131:2019) to F13 on Linux/Wayland using 
 ## Live Typing Ux Research [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Live-Typing-UX-Research)
 Claude-assisted technical research into live voice typing implementation approaches, focusing on inference, patterns, etc. 
 
-## Parakeet Type Ubuntu [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Parakeet-Type-Ubuntu)
-On-device voice typing for Linux using Parakeet and NeMo ASR models via sherpa-onnx. Built-in punctuation, multiple model profiles, system tray app with configurable hotkeys. No cloud, no GPU required.
+
+## Parlance Dictation [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Parlance-Dictation)
+Parlance: on-device dictation with NVIDIA Parakeet for Android, Linux and Windows, with a choice of model (stock or fine-tunes). General-purpose sibling of Hebrish.
+
+## Mdisc Archive Burner [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/MDisc-Archive-Burner)
+Self-hosted web UI that pulls archives from cloud storage and burns them to M-DISC BD-R, with autopilot disc swapping
+
+## Industrial Equivalents [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Industrial-Equivalents)
+A public notebook mapping consumer product categories onto their industrial equivalents — and whether the swap is worth making at home

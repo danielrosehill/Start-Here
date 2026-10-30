@@ -138,9 +138,6 @@ Quick model/template for creating separate CLAUDE.md files for developers and us
 ## Split Claude Md Pattern [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Split-Claude-MD-Pattern)
 Demo/pattern for creating a home CLAUDE.md optimised for context handling
 
-## Claude Dolphin Konsole Actions [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Dolphin-Konsole-Actions)
-Dolphin actions for KDE + Claude Code
-
 ## Claude Shopping Eval Demo [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Shopping-Eval-Demo)
 Demo: using Claude Code as a consumer purchasing assistant — spec, catalog screenshots, and AI-generated recommendations
 
@@ -268,14 +265,8 @@ Passive-aggressive PA system for Claude Code — barks status updates over a spe
 ## Claude Career Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Career-Plugin)
 Claude Code plugin: career planning workflow — /log-role, /compare-offer, /track-application, /salary-benchmark primitives, with planning/job-search/salary variants.
 
-## Claude Agent Relay Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Agent-Relay-Plugin)
-Direct agent-to-agent communication and coordination within a LAN. MCP relay server + Claude Code plugin.
-
 ## Mk Claude [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/MK-Claude)
 An AI-assisted political platform experiment for Israel — a detailed, researched manifesto for a party that doesn't exist
-
-## Claude A2A Research [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-A2A-Research)
-Research on Agent-to-Agent (A2A) protocols and Claude
 
 ## Claude User Context Pattern [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-User-Context-Pattern)
 A depersonalised reference pattern for organising user-level (~/.claude/) context for Claude Code: a lean CLAUDE.md that routes to topical context/*.md files.
@@ -321,8 +312,6 @@ Claude Code plugin for browser-driven AliExpress shopping via Claude in Chrome �
 
 ## Claude Pii Scanner Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-PII-Scanner-Plugin)
 PII scanner: credentials, generic PII, and personal-inventory matches across files, directories, and git repos.
-
-## Claude Spamhole Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-SpamHole-Plugin)
 
 ## Claude License Populator Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-License-Populator-Plugin)
 
@@ -457,8 +446,6 @@ Claude Code plugin for managing OPNsense routers — SSH + API, with externalize
 
 ## Claude Adb Ops Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-ADB-Ops-Plugin)
 
-## Claude Hp5200 Skill Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-HP5200-Skill-plugin)
-
 ## Claude Md Experiments [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-MD-Experiments)
 
 ## Claude Programmatic Doc Generation Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Programmatic-Doc-Generation-Plugin)
@@ -509,9 +496,6 @@ Claude Code plugin for scaffolding new LLM Council projects (Template / Grounded
 ## Claude Shopping Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Shopping-Plugin)
 Claude Code plugin: consumer shopping workflow — find product, compare vendors, check availability, with Israel and generic region variants.
 
-## Claude Purchasing Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Purchasing-Plugin)
-Claude Code plugin: purchasing workflow — intake, research, compare, evaluate, recommend, market-check, preference memory, and hardware-rig profiling primitives, with general/tech-procurement/recommendations variants.
-
 ## Claude For Os Mgmt Research [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-For-OS-Mgmt-Research)
 Research workspace on using Claude / Claude Code for OS management
 
@@ -520,9 +504,6 @@ Research workspace on using Claude / Claude Code for OS management
 ## Claude Code Bugs And Frs [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Code-Bugs-And-FRs)
 Staging area for Claude Code bug reports and feature requests before filing upstream at anthropics/claude-code
 
-## Claude Code Feedback [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Code-Feedback)
-Claude Code plugin for filing well-formed bug reports, feature requests, model-behavior reports, and docs issues against anthropics/claude-code
-
 ## Claude Html Email Designer Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-HTML-Email-Designer-Plugin)
 
 ## Claude Green Invoice Ops Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Green-Invoice-Ops-Plugin)
@@ -530,8 +511,6 @@ Green Invoice plugin providing Green Invoice/ Morning MCP and skill definitions 
 
 ## Claude Task Queuer Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Task-Queuer-Plugin)
 Simple Claude task actuator for adding task mgmt to repositories with support for agent sorting
-
-## Claude Macropad V2 [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Macropad-V2)
 
 ## Claude Test Project Ideator Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Test-Project-Ideator-Plugin)
 
@@ -568,8 +547,6 @@ Claude Code plugin: personal budgeting workflow — log transactions, categorize
 
 ## Local Claude Plugin Install Research [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Local-Claude-Plugin-Install-Research)
 
-## Claude Open Router Model Research Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Open-Router-Model-Research-Plugin)
-
 ## Claude Calls The Shots [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Calls-The-Shots)
 
 ## Stack Search Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Stack-Search-Plugin)
@@ -591,3 +568,126 @@ Claude Code plugin for managing, auditing, and optimising Conda environments —
 
 ## Claude Security Checkup Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Security-Checkup-Plugin)
 Claude Code plugin: security and compliance workflow — vulnerability scanning, system hardening, config audits.
+
+## Session Restore [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Session-Restore)
+Reopen Claude Code sessions lost when the terminal crashed: each in its repo, one Konsole window of split panes
+
+## Claude Kde Agent Workspace Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-KDE-Agent-Workspace-Plugin)
+Give Claude its own KDE Plasma virtual desktop: create it, test real apps there via AT-SPI + KWin capture, bind it to a monitor.
+
+## Claude Site Skill Builder Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Site-Skill-Builder-Plugin)
+Build a Claude Code plugin for a website by observing it in your own signed-in browser — propose skills, author durable ones, keep them alive as the UI drifts.
+
+## Claude Modular Research Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Modular-Research-Plugin)
+Modular research task: dictated brief → research repo → Typst PDF → two-host podcast (Gemini TTS) → Google Drive → email. Every output optional.
+
+## New Task Split [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/New-Task-Split)
+Claude Code hook: a local ONNX classifier detects an unrelated new task and moves it to a fresh session
+
+## Claude Pad [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Pad)
+
+
+## Claude Kaizen [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Kaizen)
+Claude Code plugin for kaizen: incremental improvement of mature codebases, one atomic commit at a time
+
+## Claude Foundations [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Foundations)
+The foundational layer of a Claude Code setup, indexed as one system: five slots — entrypoint, reference context, standing directives, procedures, capability — the repos that own each, and the order to adopt them in.
+
+## Claude Sops [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-SOPs)
+Keep your own standard operating procedures as a private, versioned markdown library that Claude Code reads on demand — one CLAUDE.md pointer, one index, one procedure per run.
+
+## Claude Dead Drop [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Dead-Drop)
+Asynchronous agent-to-agent messages between Claude Code sessions in different repos: a markdown mailbox in each repo's a2a/ folder, a SessionStart hook, reminders and living messages. No server. Fourth iteration (ex Agent-Junction, Agent-Relay, Claude-Breakout).
+
+## Claude Planning Docs Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Planning-Docs-Plugin)
+Claude Code plugin: keep a repo's decision log and plans lean — record numbered decisions, compact old decisions and plans in place.
+
+## Claude Avp Music Video Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-AVP-Music-Video-Plugin)
+Claude Code plugin: turn audio (e.g. Suno songs) into branded music videos with audio-visualizer-python (avp) — templates, brand kit, karaoke lyrics, AV1 encode
+
+## Claude Ubuntu Hotkey Builder [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Ubuntu-Hotkey-Builder)
+Claude plugin: find free keys and build working shortcuts, macros and text-injection hotkeys on Ubuntu (X11/Wayland, KDE/GNOME)
+
+## Claude Spend Approval Limit [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Spend-Approval-Limit)
+CLAUDE.md snippet: a spending approval limit for AI agents — autonomous below it, estimate-and-ask above it
+
+## Claude Custom Model Planning Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Custom-Model-Planning-Plugin)
+Plan custom small models and fine-tunes: Hub exists-check, prior-art research, approach ladder and build spec in a private planning repo.
+
+## Claude Grainger Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Grainger-Plugin)
+Claude Code plugin for product research on Grainger.com (US industrial MRO) — mapped API surface, facet grammar, branch stock, and HTTP-200 block classification
+
+## Claude Travel Packing Assistant Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Travel-Packing-Assistant-Plugin)
+Claude Code plugin: work out the real baggage allowance for every segment of an international itinerary, pack to the binding limit, price the excess options, and print an airport counter card
+
+## To Skill Or Not To Skill [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/To-Skill-Or-Not-To-Skill)
+Before any task, ask: should this become a skill? A user-level heuristic for AI agents, as a Claude Code plugin plus a CLAUDE.md / AGENTS.md installer.
+
+## Maccabi Online Skills [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Maccabi-Online-Skills)
+Unofficial Claude Code skills for Maccabi Online, the Maccabi Healthcare Services (Israel) member portal — drives your own signed-in Chrome
+
+## Claude Personal Context Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Personal-Context-Plugin)
+Claude Code plugin: builds and maintains a persistent, portable background context layer — intake interview, ingestion of existing material, gap analysis, scoped retrieval, maintenance, export. Plain markdown in a store you own; explicitly not model-managed memory.
+
+## Claude Agent Exchange [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Agent-Exchange)
+A two-way file exchange between you and Claude Code: from-human / from-agent folders, a CLAUDE.md block, and a small explorer app locked to them
+
+## Claude Pseudospam Filter Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Pseudospam-Filter-Plugin)
+Claude Code plugin: a second spam filter for pseudo-personalised outreach, taught by your own Gmail labels
+
+## Claude Network Tmp Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Network-Tmp-Plugin)
+Claude Code plugin: capped, self-cleaning network overflow for a small or tmpfs /tmp
+
+## Claude Mental Health Templates Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Mental-Health-Templates-Index)
+Index of Claude Code templates, plugins and workspaces for mental health work a person does on their own material — issue-bounded workspaces, therapy tracking, appointment preparation, and the portable personal context layer underneath them. A subindex of Claude-Code-Projects-Index.
+
+## Claude Linux Bt Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Linux-BT-Plugin)
+Claude Code plugin: Bluetooth on Linux via bluetoothctl — scan, pair+trust+connect, manage, reset. Because the desktop dialogs don't.
+
+## Claude Ikea Israel Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-IKEA-Israel-Plugin)
+Claude Code plugin: per-branch stock counts, aisle/bin locations and ILS prices for IKEA Israel's five stores, from the Hebrew/RTL site.
+
+## Claude Amazon Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Amazon-Plugin)
+Claude Code plugin: Amazon.com marketplace research - verified listing data, Prime-aware delivery dates checked against the ZIP they were rendered for, and Amazon's search filter grammar.
+
+## Claude Hebrew Correspondence Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Hebrew-Correspondence-Plugin)
+
+
+## Claude Eml Toolkit [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Eml-Toolkit)
+
+
+## Claude Timemark Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Timemark-Plugin)
+Handle Timemark (Android stamp camera) exports: which route preserves pixels vs field values, and the join that recovers both
+
+## Claude Air Traffic Control [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Air-Traffic-Control)
+Air traffic control as a workspace model for agentic AI: a voice-first shift manager that routes one operator's attention across many concurrent Claude Code sessions. Idea repo, no code.
+
+## Agentic Book Writing [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Agentic-Book-Writing)
+The pattern spec and documentation for writing full-length reference and instructional books with teams of Claude Code subagents — context management by delegation, with consistency carried by documents rather than shared context.
+
+## Claude Book Writing Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Book-Writing-Plugin)
+Claude Code plugin: write a full-length reference or instructional book with teams of subagents — definition, planning, research, parallel chapter drafting, review, graphics and publication. Authorship only; typesetting hands off to kdp-publishing.
+
+## Claude Book Workspace Template [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Book-Workspace-Template)
+Workspace scaffold for writing a full-length reference book with Claude Code subagents — manifest, style guides, chapter briefs, continuity ledger, and lint gates for the failures agentic drafting produces.
+
+## Claude Obd Diagnostics Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-OBD-Diagnostics-Plugin)
+Claude Code plugin: read OBD-II data from an ELM327-class adapter, normalise it to JSON, and diagnose faults and plan maintenance from it. WIP.
+
+## Claude Therapy Workspace Template [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Therapy-Workspace-Template)
+GitHub template for working through one bounded personal issue with Claude Code — sessions, threads, timelines and a handover for a real appointment. Issue-scoped by design; background context lives in a portable store outside the workspace, not in model-managed memory. Not therapy.
+
+## Dolphin Ai Actions [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Dolphin-AI-Actions)
+KDE Dolphin context-menu actions for opening directories in Claude Code and Codex
+
+## Claude Monitor Research [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Monitor-Research)
+What a multi-pane Claude Code workflow actually needs from a display, measured in text cells rather than inches
+
+## Kdp Publishing Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/KDP-Publishing-Plugin)
+Claude Code plugin: typeset a print-ready Amazon KDP paperback with Typst. Trim geometry biased to KDP's US standard sizes, a full-wrap cover built last from the interior's measured extent, mechanical pre-flight, and an upload folder. Production only — it does not write your book.
+
+## Claude Voice Notifier [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Voice-Notifier)
+Planning repo: Claude places an outbound phone call to deliver a one-time, task-specific spoken notification on your behalf. Twilio + per-call agent instructions.
+
+## Claude Tooling Prior Art [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Tooling-Prior-Art)
+Public record of prior-art scans for Claude Code tooling — does a plugin/MCP/skill already exist for this, or is it blue sky? Dated verdicts, with the searches that produced them.

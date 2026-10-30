@@ -86,3 +86,6 @@ Work in progress index / parking lot for development when time presents itself!
 
 ## Price Research Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Price-Research-Index)
 Index of point-in-time API and service pricing snapshots and cost comparisons
+
+## English Hebrew Code Switching Index [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/English-Hebrew-Code-Switching-Index)
+Index of my English-Hebrew code-switching work: ASR fine-tunes, datasets, a Hebrew-in-Latin token classifier, Spaces and companion repos
