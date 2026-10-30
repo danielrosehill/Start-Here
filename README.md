@@ -3,7 +3,7 @@
 ![Banner](banners/index.png)
 
 
-Hi, I'm [Daniel Rosehill](https://danielrosehill.com). I have 1,059 public repositories on GitHub — tools, experiments, Claude Code plugins, MCP servers, datasets and a good deal of documentation — and this repo is the way in. It is regenerated from the GitHub API, so it covers everything public, not just the projects I remembered to list. Last rebuilt 2026-10-21.
+Hi, I'm [Daniel Rosehill](https://danielrosehill.com). I have 1,059 public repositories on GitHub — tools, experiments, Claude Code plugins, MCP servers, datasets and a good deal of documentation — and this repo is the way in. It is regenerated from the GitHub API, so it covers everything public, not just the projects I remembered to list. Last rebuilt 2026-10-30.
 
 
 There are two ways to use it, depending on who you are.
@@ -14,7 +14,7 @@ There are two ways to use it, depending on who you are.
 
 ## If you're a person
 
-**Looking for a subject?** Start with the topic indexes. I keep 65 hand-curated index repos — AI agents, Hebrew language, Israel, speech tech, Claude Code and more — and they are a better read than any keyword search. The [index of indexes](https://github.com/danielrosehill/Subindices) lists them all.
+**Looking for a subject?** Start with the topic indexes. I keep 67 hand-curated index repos — AI agents, Hebrew language, Israel, speech tech, Claude Code and more — and they are a better read than any keyword search. The [index of indexes](https://github.com/danielrosehill/Subindices) lists them all.
 
 
 [![Index of Indexes](https://img.shields.io/badge/Browse_the_topic_indexes-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/danielrosehill/Subindices)

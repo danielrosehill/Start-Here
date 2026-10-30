@@ -60,6 +60,8 @@ https://github.com/danielrosehill/GitHub-Management-Tools-Index
 
 https://github.com/danielrosehill/Hardware-Blueprints-Index
 
+https://github.com/danielrosehill/Hugging-Face-Releases-Index
+
 https://github.com/danielrosehill/Home-Assistant-Index
 
 https://github.com/danielrosehill/Homebox-Projects-Index
@@ -69,6 +71,8 @@ https://github.com/danielrosehill/Israel-Preparedness-Index
 https://github.com/danielrosehill/Israel-Projects-Index
 
 https://github.com/danielrosehill/Israel-Reference-Repos
+
+https://github.com/danielrosehill/Jerusalem-Projects-Index
 
 https://github.com/danielrosehill/Jewish-Related-Index
 
