@@ -1319,7 +1319,7 @@
   },
   {
     "createdAt": "2026-04-19T13:02:11Z",
-    "description": "Claude Code plugin: audio transcription workflow \u2014 denoise, VAD, transcribe (Gemini/AssemblyAI/Whisper), clean, structure, export, with cloud and local engine backends.",
+    "description": "Superseded (2026-11-02) by Transcription-Pipeline. Claude Code plugin: audio transcription workflow \u2014 denoise, VAD, transcribe (Gemini/AssemblyAI/Whisper), clean, structure, export, with cloud and local engine backends.",
     "forkCount": 2,
     "isPrivate": false,
     "name": "Claude-Transcription-Plugin",
@@ -2011,7 +2011,7 @@
   },
   {
     "createdAt": "2025-11-27T12:10:00Z",
-    "description": "MCP for Gemini multimodal audio transcription with built in post-processing",
+    "description": "Superseded (2026-11-02) by Transcription-Pipeline. MCP for Gemini multimodal audio transcription with built in post-processing",
     "forkCount": 0,
     "isPrivate": false,
     "name": "Gemini-Transcription-MCP",
@@ -8484,7 +8484,7 @@
   },
   {
     "createdAt": "2026-03-29T11:06:06Z",
-    "description": "Local MCP for using Open Router audio models for transcription with text formatting",
+    "description": "Superseded (2026-11-02) by Transcription-Pipeline. Local MCP for using Open Router audio models for transcription with text formatting",
     "forkCount": 0,
     "isPrivate": false,
     "name": "OR-Audio-Transcription-MCP",
@@ -10012,7 +10012,7 @@
   },
   {
     "createdAt": "2025-12-02T11:20:21Z",
-    "description": "WIP MCP for using various cloud ASR models for speech to text / transcription",
+    "description": "Superseded (2026-11-02) by Transcription-Pipeline. WIP MCP for using various cloud ASR models for speech to text / transcription",
     "forkCount": 0,
     "isPrivate": false,
     "name": "Cloud-ASR-MCP",
@@ -16214,5 +16214,16 @@
     "stargazerCount": 0,
     "updatedAt": "2020-05-11T15:26:31Z",
     "url": "https://github.com/danielrosehill/Home"
+  },
+  {
+    "createdAt": "2026-11-02T00:00:00Z",
+    "description": "Claude Code plugin (v3.0.0): the current, consolidated transcription pipeline \u2014 retrieve, preprocess (EQ, denoise, VAD), transcribe (OpenRouter/Gemini Flash, AssemblyAI, Gemini, local Whisper/Parakeet), clean, label speakers, reshape, Typst PDF, save.",
+    "forkCount": 0,
+    "isPrivate": false,
+    "name": "Transcription-Pipeline",
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-11-02T00:00:00Z",
+    "url": "https://github.com/danielrosehill/Transcription-Pipeline"
   }
 ]

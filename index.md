@@ -898,9 +898,17 @@ Working out who to vote for in the 27 October 2026 Knesset election, starting fr
 
 ---
 
+### [Transcription Pipeline](https://github.com/danielrosehill/Transcription-Pipeline)
+
+Claude Code plugin (v3.0.0): the current, consolidated transcription pipeline — retrieve, preprocess (EQ, denoise, VAD), transcribe (OpenRouter/Gemini Flash, AssemblyAI, Gemini, local Whisper/Parakeet), clean, label speakers, reshape, Typst PDF, save.
+
+**Updated:** November 02, 2026 | **Created:** November 02, 2026  
+
+---
+
 ### [Claude Transcription Plugin](https://github.com/danielrosehill/Claude-Transcription-Plugin)
 
-Claude Code plugin: audio transcription workflow — denoise, VAD, transcribe (Gemini/AssemblyAI/Whisper), clean, structure, export, with cloud and local engine backends.
+**Superseded (2026-11-02) by [Transcription-Pipeline](https://github.com/danielrosehill/Transcription-Pipeline).** Claude Code plugin: audio transcription workflow — denoise, VAD, transcribe (Gemini/AssemblyAI/Whisper), clean, structure, export, with cloud and local engine backends.
 
 **Updated:** October 27, 2026 | **Created:** April 19, 2026  
 ⭐ 1 stars | 🔀 2 forks  
@@ -1547,7 +1555,7 @@ Public F-Droid repo for Daniel Rosehill's Android apps, served from Cloudflare R
 
 ### [Gemini Transcription Mcp](https://github.com/danielrosehill/Gemini-Transcription-MCP)
 
-MCP for Gemini multimodal audio transcription with built in post-processing
+**Superseded (2026-11-02) by [Transcription-Pipeline](https://github.com/danielrosehill/Transcription-Pipeline).** MCP for Gemini multimodal audio transcription with built in post-processing
 
 **Updated:** October 21, 2026 | **Created:** November 27, 2025  
 **Topics:** `` `` `` `` `` ``  
@@ -4862,7 +4870,7 @@ Readiness SOPs for wartime in Israel (my own)
 
 ### [Or Audio Transcription Mcp](https://github.com/danielrosehill/OR-Audio-Transcription-MCP)
 
-Local MCP for using Open Router audio models for transcription with text formatting
+**Superseded (2026-11-02) by [Transcription-Pipeline](https://github.com/danielrosehill/Transcription-Pipeline).** Local MCP for using Open Router audio models for transcription with text formatting
 
 **Updated:** June 16, 2026 | **Created:** March 29, 2026  
 ⭐ 1 stars | 🔀 0 forks  
@@ -5066,7 +5074,7 @@ Analyses voice data
 
 ### [Cloud Asr Mcp](https://github.com/danielrosehill/Cloud-ASR-MCP)
 
-WIP MCP for using various cloud ASR models for speech to text / transcription
+**Superseded (2026-11-02) by [Transcription-Pipeline](https://github.com/danielrosehill/Transcription-Pipeline).** WIP MCP for using various cloud ASR models for speech to text / transcription
 
 **Updated:** May 07, 2026 | **Created:** December 02, 2025  
 ⭐ 2 stars | 🔀 0 forks  

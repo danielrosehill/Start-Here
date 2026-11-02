@@ -243,8 +243,11 @@ Claude Code plugin for image processing, photo editing, batch image operations, 
 
 ## Claude Repo To Content Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Repo-To-Content-Plugin)
 
+## Transcription Pipeline [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Transcription-Pipeline)
+Claude Code plugin (v3.0.0): the current, consolidated transcription pipeline — retrieve, preprocess (EQ, denoise, VAD), transcribe (OpenRouter/Gemini Flash, AssemblyAI, Gemini, local Whisper/Parakeet), clean, label speakers, reshape, Typst PDF, save.
+
 ## Claude Transcription Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Transcription-Plugin)
-Claude Code plugin: audio transcription workflow — denoise, VAD, transcribe (Gemini/AssemblyAI/Whisper), clean, structure, export, with cloud and local engine backends.
+**Superseded (2026-11-02) by [Transcription-Pipeline](https://github.com/danielrosehill/Transcription-Pipeline).** Claude Code plugin: audio transcription workflow — denoise, VAD, transcribe (Gemini/AssemblyAI/Whisper), clean, structure, export, with cloud and local engine backends.
 
 ## Claude Hardware Spec Assembly Plugin [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Claude-Hardware-Spec-Assembly-Plugin)
 

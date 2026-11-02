@@ -37,7 +37,7 @@ Visualise how different countries and systems of government approach policy chal
 Gemini: screenshot and voice narration based timesheet creator
 
 ## Gemini Transcription Mcp [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Gemini-Transcription-MCP)
-MCP for Gemini multimodal audio transcription with built in post-processing
+**Superseded (2026-11-02) by [Transcription-Pipeline](https://github.com/danielrosehill/Transcription-Pipeline).** MCP for Gemini multimodal audio transcription with built in post-processing
 
 ## Gemini 31 Lite Audio Understanding Eval [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval)
 One voice recording for testing with TTS/cloning

@@ -46,7 +46,7 @@ MCP for providing a manually managed LAN directory to AI tools
 MCP for performing S3 operations in Wasabi S3-compliant buckets
 
 ## Cloud Asr Mcp [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Cloud-ASR-MCP)
-WIP MCP for using various cloud ASR models for speech to text / transcription
+**Superseded (2026-11-02) by [Transcription-Pipeline](https://github.com/danielrosehill/Transcription-Pipeline).** WIP MCP for using various cloud ASR models for speech to text / transcription
 
 ## Local Secrets Mcp [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/Local-Secrets-MCP)
 Notes / an idea for a local MCP handler for secrets that works in conjunction with a cloud API
@@ -132,4 +132,4 @@ MCP server for Moltbook — the social network for AI agents
 MCP for Donetick self-hosted chore manager
 
 ## Or Audio Transcription Mcp [![View Repo](https://img.shields.io/badge/view-repo-green)](https://github.com/danielrosehill/OR-Audio-Transcription-MCP)
-Local MCP for using Open Router audio models for transcription with text formatting
+**Superseded (2026-11-02) by [Transcription-Pipeline](https://github.com/danielrosehill/Transcription-Pipeline).** Local MCP for using Open Router audio models for transcription with text formatting
