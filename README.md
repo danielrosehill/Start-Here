@@ -2,6 +2,8 @@
 
 ![Banner](banners/index.png)
 
+**Write-up:** [My curated AI indexes on GitHub: what each list covers](https://blog.danielrosehill.com/posts/curated-ai-indexes-awesome-lists-agents-evals-voice-au87cm/)
+
 
 Hi, I'm [Daniel Rosehill](https://danielrosehill.com). I have 1,139 public repositories on GitHub — tools, experiments, Claude Code plugins, MCP servers, datasets and a good deal of documentation — and this repo is the way in. It is regenerated from the GitHub API, so it covers everything public, not just the projects I remembered to list. Last rebuilt 2026-10-30.
 
