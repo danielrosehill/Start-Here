@@ -25,6 +25,8 @@ There are two ways to use it, depending on who you are.
 **Want to browse?** Every public repo is filed by topic below, or you can see [the full list by last update](index.md) or [what I made when](sections/by-time/README.md).
 
 
+**Want to see what's new?** [Firehose](https://github.com/danielrosehill/Firehose) is a daily digest of what I published across GitHub, Hugging Face and my blog.
+
 | Topic | What's in it |
 | ----- | ------------ |
 | [AI & Machine Learning](sections/by-topic/ai-ml/index.md) | Repositories related to AI, ML, and LLM technologies |

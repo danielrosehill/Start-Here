@@ -162,6 +162,8 @@ def build_readme(schema_path, output_path, base_dir=None):
         "\n[![Index of Indexes](https://img.shields.io/badge/Browse_the_topic_indexes-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/danielrosehill/Subindices)\n",
         "\n**Want to browse?** Every public repo is filed by topic below, or you can see "
         "[the full list by last update](index.md) or [what I made when](sections/by-time/README.md).\n",
+        "\n**Want to see what's new?** [Firehose](https://github.com/danielrosehill/Firehose) is a daily "
+        "digest of what I published across GitHub, Hugging Face and my blog.\n",
         "\n| Topic | What's in it |",
         "| ----- | ------------ |",
     ]
