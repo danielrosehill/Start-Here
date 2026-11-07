@@ -164,6 +164,8 @@ def build_readme(schema_path, output_path, base_dir=None):
         "[the full list by last update](index.md) or [what I made when](sections/by-time/README.md).\n",
         "\n**Want to see what's new?** [Firehose](https://github.com/danielrosehill/Firehose) is a daily "
         "digest of what I published across GitHub, Hugging Face and my blog.\n",
+        "\n**Looking for models and datasets?** My [Start Here Space](https://huggingface.co/spaces/danielrosehill/Start-Here) "
+        "on Hugging Face is the way in to those.\n",
         "\n| Topic | What's in it |",
         "| ----- | ------------ |",
     ]

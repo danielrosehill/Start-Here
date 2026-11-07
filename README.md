@@ -27,6 +27,8 @@ There are two ways to use it, depending on who you are.
 
 **Want to see what's new?** [Firehose](https://github.com/danielrosehill/Firehose) is a daily digest of what I published across GitHub, Hugging Face and my blog.
 
+**Looking for models and datasets?** My [Start Here Space](https://huggingface.co/spaces/danielrosehill/Start-Here) on Hugging Face is the way in to those.
+
 | Topic | What's in it |
 | ----- | ------------ |
 | [AI & Machine Learning](sections/by-topic/ai-ml/index.md) | Repositories related to AI, ML, and LLM technologies |
